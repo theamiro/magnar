@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9BB509529140E1C00EE852A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BB509429140E1C00EE852A /* AppDelegate.swift */; };
+		C9BB509729140E1C00EE852A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BB509629140E1C00EE852A /* SceneDelegate.swift */; };
+		C9BB509929140E1C00EE852A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BB509829140E1C00EE852A /* ViewController.swift */; };
+		C9BB509C29140E1C00EE852A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9BB509A29140E1C00EE852A /* Main.storyboard */; };
+		C9BB509E29140E1F00EE852A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9BB509D29140E1F00EE852A /* Assets.xcassets */; };
+		C9BB50A129140E1F00EE852A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9BB509F29140E1F00EE852A /* LaunchScreen.storyboard */; };
+		C9BB50AC29140E1F00EE852A /* MagnarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BB50AB29140E1F00EE852A /* MagnarTests.swift */; };
+		C9BB50B629140E1F00EE852A /* MagnarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BB50B529140E1F00EE852A /* MagnarUITests.swift */; };
+		C9BB50B829140E1F00EE852A /* MagnarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BB50B729140E1F00EE852A /* MagnarUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9BB50A829140E1F00EE852A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9BB508929140E1C00EE852A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9BB509029140E1C00EE852A;
+			remoteInfo = Magnar;
+		};
+		C9BB50B229140E1F00EE852A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9BB508929140E1C00EE852A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9BB509029140E1C00EE852A;
+			remoteInfo = Magnar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9BB509129140E1C00EE852A /* Magnar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Magnar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9BB509429140E1C00EE852A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9BB509629140E1C00EE852A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C9BB509829140E1C00EE852A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C9BB509B29140E1C00EE852A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9BB509D29140E1F00EE852A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9BB50A029140E1F00EE852A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9BB50A229140E1F00EE852A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9BB50A729140E1F00EE852A /* MagnarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagnarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9BB50AB29140E1F00EE852A /* MagnarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnarTests.swift; sourceTree = "<group>"; };
+		C9BB50B129140E1F00EE852A /* MagnarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagnarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9BB50B529140E1F00EE852A /* MagnarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnarUITests.swift; sourceTree = "<group>"; };
+		C9BB50B729140E1F00EE852A /* MagnarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9BB508E29140E1C00EE852A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BB50A429140E1F00EE852A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BB50AE29140E1F00EE852A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9BB508829140E1C00EE852A = {
+			isa = PBXGroup;
+			children = (
+				C9BB509329140E1C00EE852A /* Magnar */,
+				C9BB50AA29140E1F00EE852A /* MagnarTests */,
+				C9BB50B429140E1F00EE852A /* MagnarUITests */,
+				C9BB509229140E1C00EE852A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9BB509229140E1C00EE852A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9BB509129140E1C00EE852A /* Magnar.app */,
+				C9BB50A729140E1F00EE852A /* MagnarTests.xctest */,
+				C9BB50B129140E1F00EE852A /* MagnarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9BB509329140E1C00EE852A /* Magnar */ = {
+			isa = PBXGroup;
+			children = (
+				C9BB509429140E1C00EE852A /* AppDelegate.swift */,
+				C9BB509629140E1C00EE852A /* SceneDelegate.swift */,
+				C9BB509829140E1C00EE852A /* ViewController.swift */,
+				C9BB509A29140E1C00EE852A /* Main.storyboard */,
+				C9BB509D29140E1F00EE852A /* Assets.xcassets */,
+				C9BB509F29140E1F00EE852A /* LaunchScreen.storyboard */,
+				C9BB50A229140E1F00EE852A /* Info.plist */,
+			);
+			path = Magnar;
+			sourceTree = "<group>";
+		};
+		C9BB50AA29140E1F00EE852A /* MagnarTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9BB50AB29140E1F00EE852A /* MagnarTests.swift */,
+			);
+			path = MagnarTests;
+			sourceTree = "<group>";
+		};
+		C9BB50B429140E1F00EE852A /* MagnarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9BB50B529140E1F00EE852A /* MagnarUITests.swift */,
+				C9BB50B729140E1F00EE852A /* MagnarUITestsLaunchTests.swift */,
+			);
+			path = MagnarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9BB509029140E1C00EE852A /* Magnar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9BB50BB29140E1F00EE852A /* Build configuration list for PBXNativeTarget "Magnar" */;
+			buildPhases = (
+				C9BB508D29140E1C00EE852A /* Sources */,
+				C9BB508E29140E1C00EE852A /* Frameworks */,
+				C9BB508F29140E1C00EE852A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Magnar;
+			productName = Magnar;
+			productReference = C9BB509129140E1C00EE852A /* Magnar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9BB50A629140E1F00EE852A /* MagnarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9BB50BE29140E1F00EE852A /* Build configuration list for PBXNativeTarget "MagnarTests" */;
+			buildPhases = (
+				C9BB50A329140E1F00EE852A /* Sources */,
+				C9BB50A429140E1F00EE852A /* Frameworks */,
+				C9BB50A529140E1F00EE852A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9BB50A929140E1F00EE852A /* PBXTargetDependency */,
+			);
+			name = MagnarTests;
+			productName = MagnarTests;
+			productReference = C9BB50A729140E1F00EE852A /* MagnarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9BB50B029140E1F00EE852A /* MagnarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9BB50C129140E1F00EE852A /* Build configuration list for PBXNativeTarget "MagnarUITests" */;
+			buildPhases = (
+				C9BB50AD29140E1F00EE852A /* Sources */,
+				C9BB50AE29140E1F00EE852A /* Frameworks */,
+				C9BB50AF29140E1F00EE852A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9BB50B329140E1F00EE852A /* PBXTargetDependency */,
+			);
+			name = MagnarUITests;
+			productName = MagnarUITests;
+			productReference = C9BB50B129140E1F00EE852A /* MagnarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9BB508929140E1C00EE852A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					C9BB509029140E1C00EE852A = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					C9BB50A629140E1F00EE852A = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = C9BB509029140E1C00EE852A;
+					};
+					C9BB50B029140E1F00EE852A = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = C9BB509029140E1C00EE852A;
+					};
+				};
+			};
+			buildConfigurationList = C9BB508C29140E1C00EE852A /* Build configuration list for PBXProject "Magnar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9BB508829140E1C00EE852A;
+			productRefGroup = C9BB509229140E1C00EE852A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9BB509029140E1C00EE852A /* Magnar */,
+				C9BB50A629140E1F00EE852A /* MagnarTests */,
+				C9BB50B029140E1F00EE852A /* MagnarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9BB508F29140E1C00EE852A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BB50A129140E1F00EE852A /* LaunchScreen.storyboard in Resources */,
+				C9BB509E29140E1F00EE852A /* Assets.xcassets in Resources */,
+				C9BB509C29140E1C00EE852A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BB50A529140E1F00EE852A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BB50AF29140E1F00EE852A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9BB508D29140E1C00EE852A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BB509929140E1C00EE852A /* ViewController.swift in Sources */,
+				C9BB509529140E1C00EE852A /* AppDelegate.swift in Sources */,
+				C9BB509729140E1C00EE852A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BB50A329140E1F00EE852A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BB50AC29140E1F00EE852A /* MagnarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BB50AD29140E1F00EE852A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BB50B829140E1F00EE852A /* MagnarUITestsLaunchTests.swift in Sources */,
+				C9BB50B629140E1F00EE852A /* MagnarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9BB50A929140E1F00EE852A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9BB509029140E1C00EE852A /* Magnar */;
+			targetProxy = C9BB50A829140E1F00EE852A /* PBXContainerItemProxy */;
+		};
+		C9BB50B329140E1F00EE852A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9BB509029140E1C00EE852A /* Magnar */;
+			targetProxy = C9BB50B229140E1F00EE852A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9BB509A29140E1C00EE852A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9BB509B29140E1C00EE852A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9BB509F29140E1F00EE852A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9BB50A029140E1F00EE852A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9BB50B929140E1F00EE852A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9BB50BA29140E1F00EE852A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9BB50BC29140E1F00EE852A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CVR223BS4M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Magnar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelamiro.Magnar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9BB50BD29140E1F00EE852A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CVR223BS4M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Magnar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelamiro.Magnar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C9BB50BF29140E1F00EE852A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CVR223BS4M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelamiro.MagnarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magnar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Magnar";
+			};
+			name = Debug;
+		};
+		C9BB50C029140E1F00EE852A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CVR223BS4M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelamiro.MagnarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magnar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Magnar";
+			};
+			name = Release;
+		};
+		C9BB50C229140E1F00EE852A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CVR223BS4M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelamiro.MagnarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Magnar;
+			};
+			name = Debug;
+		};
+		C9BB50C329140E1F00EE852A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CVR223BS4M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelamiro.MagnarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Magnar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9BB508C29140E1C00EE852A /* Build configuration list for PBXProject "Magnar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BB50B929140E1F00EE852A /* Debug */,
+				C9BB50BA29140E1F00EE852A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9BB50BB29140E1F00EE852A /* Build configuration list for PBXNativeTarget "Magnar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BB50BC29140E1F00EE852A /* Debug */,
+				C9BB50BD29140E1F00EE852A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9BB50BE29140E1F00EE852A /* Build configuration list for PBXNativeTarget "MagnarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BB50BF29140E1F00EE852A /* Debug */,
+				C9BB50C029140E1F00EE852A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9BB50C129140E1F00EE852A /* Build configuration list for PBXNativeTarget "MagnarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BB50C229140E1F00EE852A /* Debug */,
+				C9BB50C329140E1F00EE852A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9BB508929140E1C00EE852A /* Project object */;
+}
