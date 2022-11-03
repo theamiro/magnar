@@ -5,9 +5,16 @@
 //  Created by Michael Amiro on 03/11/2022.
 //
 
-import Foundation
+import UIKit
 
-struct TableRow {
-    let tag: Int
-    let message: String
+protocol TableRow: AnyObject {
+    var reuseIdentifier: String { get }
+    var nibName: String { get }
+    var tag: Int { get }
+}
+
+extension TableRow {
+    func configure(_ cell: UITableViewCell, indexPath: IndexPath, sender: TableViewController? = nil) -> UITableViewCell {
+        return cell
+    }
 }
