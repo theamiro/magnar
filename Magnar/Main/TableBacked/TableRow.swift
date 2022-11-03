@@ -11,6 +11,7 @@ protocol TableRow: AnyObject {
     var reuseIdentifier: String { get }
     var nibName: String { get }
     var tag: Int { get }
+    func configure(_ cell: UITableViewCell, indexPath: IndexPath, sender: TableViewController?) -> UITableViewCell
 }
 
 extension TableRow {

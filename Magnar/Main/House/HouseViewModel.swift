@@ -34,22 +34,18 @@ class HouseViewModel: TableViewModel {
         }
     }
 
-    func onRowSelected(indexPath: IndexPath) {
-        let selectedCellTag = sections[indexPath.section].cells[indexPath.row].tag
-        print(selectedCellTag)
-        print(state.houses.count)
-        goToHouseDetailView(state.houses[selectedCellTag])
-    }
-
     func handleGetHousesSuccess(_ houses: [House]) {
         state.houses = houses
-
         for index in state.houses.indices {
             let house = state.houses[index]
             let model = HouseFieldModel(name: house.name, region: house.region, numberOfMembers: house.swornMembers.count, overlord: house.overlord)
             sections[0].cells.append(HouseField(tag: index, model: model))
         }
-        redrawSection(0)
+    }
+
+    func onRowSelected(indexPath: IndexPath) {
+        let selectedCellTag = sections[indexPath.section].cells[indexPath.row].tag
+        goToHouseDetailView(state.houses[selectedCellTag])
     }
 
     struct State {

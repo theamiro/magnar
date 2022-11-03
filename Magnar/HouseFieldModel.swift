@@ -8,8 +8,8 @@
 import Foundation
 
 struct HouseFieldModel {
-    var name: String
-    var region: String
-    var numberOfMembers: Int
-    var overlord: String
+    var name: String = "Sample"
+    var region: String = "Sample"
+    var numberOfMembers: Int = 45
+    var overlord: String = "Sample"
 }
