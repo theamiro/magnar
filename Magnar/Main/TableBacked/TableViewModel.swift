@@ -8,11 +8,10 @@
 import UIKit
 
 class TableViewModel {
-    var sections: [TableSection]
-    var title: String
+    var sections: [TableSection] = []
+    var title: String = ""
 
-    init(sections: [TableSection] = [], title: String = "") {
-        self.sections = sections
-        self.title = title
+    deinit {
+        print("\(self) deinit - - - - - - ")
     }
 }

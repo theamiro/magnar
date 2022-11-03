@@ -8,8 +8,10 @@
 import UIKit
 
 class TableViewController: UIViewController {
-    var viewModel: TableViewModel?
     var coordinator: Coordinator?
+    var onRowSelected: (IndexPath) -> Void = { _ in }
+
+    var viewModel: TableViewModel!
 
     private lazy var tableView: UITableView = {
         let tableView = UITableView(frame: .zero, style: .insetGrouped)
@@ -39,6 +41,14 @@ class TableViewController: UIViewController {
             tableView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
         ])
     }
+
+    func redrawRow(indexPath: IndexPath) {
+        tableView.reloadRows(at: [indexPath], with: .automatic)
+    }
+
+    func redrawSection(section: Int) {
+        tableView.reloadSections(IndexSet([section]), with: .automatic)
+    }
 }
 extension TableViewController: UITableViewDataSource, UITableViewDelegate {
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -53,6 +63,7 @@ extension TableViewController: UITableViewDataSource, UITableViewDelegate {
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        onRowSelected(indexPath)
         tableView.deselectRow(at: indexPath, animated: true)
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

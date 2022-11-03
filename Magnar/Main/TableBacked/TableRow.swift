@@ -8,5 +8,6 @@
 import Foundation
 
 struct TableRow {
+    let tag: Int
     let message: String
 }
