@@ -23,7 +23,7 @@ class HouseTableViewCell: UITableViewCell {
         self.model = model
 
         nameLabel.text = model.name
-        regionLabel.text = model.region
+        regionLabel.text = "Region: \(model.region)"
         overlordLabel.text = model.overlord == "" ? "No overlord": model.overlord
         numberOfMembersLabel.text = "\(model.numberOfMembers)"
     }

@@ -22,35 +22,35 @@
                         <rect key="frame" x="19.999999999999986" y="11" width="251.66666666666663" height="80"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="6lh-km-Tlj">
-                                <rect key="frame" x="0.0" y="5.3333333333333357" width="191.66666666666666" height="69.333333333333314"/>
+                                <rect key="frame" x="0.0" y="8.3333333333333321" width="191.66666666666666" height="63.333333333333343"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="SWC-hq-NKL">
-                                        <rect key="frame" x="0.0" y="0.0" width="159.66666666666666" height="44.333333333333336"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="141.66666666666666" height="39.666666666666664"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="House of Dalgon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CdQ-cK-0ge">
-                                                <rect key="frame" x="0.0" y="0.0" width="159.66666666666666" height="24"/>
-                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="141.66666666666666" height="21.666666666666668"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Northlanders" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gbv-Cn-s47">
-                                                <rect key="frame" x="0.0" y="25.000000000000007" width="94.666666666666671" height="19.333333333333336"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <rect key="frame" x="0.0" y="22.666666666666668" width="84.333333333333329" height="17.000000000000004"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" systemColor="secondaryLabelColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Overlord James" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eNM-bs-aev">
-                                        <rect key="frame" x="0.0" y="52.333333333333343" width="101.66666666666667" height="17"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <rect key="frame" x="0.0" y="47.666666666666671" width="95.333333333333329" height="15.666666666666664"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" systemColor="secondaryLabelColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="1v5-tb-MZU">
-                                <rect key="frame" x="191.66666666666666" y="9.3333333333333321" width="60" height="61.333333333333343"/>
+                                <rect key="frame" x="191.66666666666666" y="10" width="60" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="52" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="brV-02-gU0">
                                         <rect key="frame" x="0.0" y="0.0" width="60" height="48"/>
@@ -59,9 +59,9 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="members" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2u-SB-D8V">
-                                        <rect key="frame" x="0.0" y="48" width="60" height="13.333333333333336"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                        <nil key="textColor"/>
+                                        <rect key="frame" x="0.0" y="48" width="60" height="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <color key="textColor" systemColor="secondaryLabelColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
