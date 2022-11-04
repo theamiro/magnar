@@ -16,6 +16,18 @@
 		C916749629141E84005FF1B3 /* TableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C916749529141E84005FF1B3 /* TableRow.swift */; };
 		C91674982914217F005FF1B3 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91674972914217F005FF1B3 /* BaseViewModel.swift */; };
 		C916749A29142608005FF1B3 /* HouseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C916749929142608005FF1B3 /* HouseViewModel.swift */; };
+		C91674A029142F45005FF1B3 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = C916749F29142F45005FF1B3 /* House.swift */; };
+		C91674A329142F88005FF1B3 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91674A229142F88005FF1B3 /* NetworkService.swift */; };
+		C91674A629142FBA005FF1B3 /* HouseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91674A529142FBA005FF1B3 /* HouseService.swift */; };
+		C91674A82914300A005FF1B3 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91674A72914300A005FF1B3 /* NetworkError.swift */; };
+		C91674AA291431D3005FF1B3 /* RequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91674A9291431D3005FF1B3 /* RequestHandler.swift */; };
+		C91674AC29143370005FF1B3 /* ResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91674AB29143370005FF1B3 /* ResponseHandler.swift */; };
+		C9ADE33D291451A0002284BA /* HouseDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADE33C291451A0002284BA /* HouseDetailsViewModel.swift */; };
+		C9ADE33F291451C0002284BA /* HouseDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADE33E291451C0002284BA /* HouseDetailsViewController.swift */; };
+		C9ADE34229145439002284BA /* HouseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADE34029145439002284BA /* HouseTableViewCell.swift */; };
+		C9ADE34329145439002284BA /* HouseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADE34129145439002284BA /* HouseTableViewCell.xib */; };
+		C9ADE34529146C8A002284BA /* HouseFieldModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADE34429146C8A002284BA /* HouseFieldModel.swift */; };
+		C9ADE34729146D12002284BA /* HouseField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADE34629146D12002284BA /* HouseField.swift */; };
 		C9BB509529140E1C00EE852A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BB509429140E1C00EE852A /* AppDelegate.swift */; };
 		C9BB509729140E1C00EE852A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BB509629140E1C00EE852A /* SceneDelegate.swift */; };
 		C9BB509929140E1C00EE852A /* HouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BB509829140E1C00EE852A /* HouseViewController.swift */; };
@@ -54,6 +66,18 @@
 		C916749529141E84005FF1B3 /* TableRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableRow.swift; sourceTree = "<group>"; };
 		C91674972914217F005FF1B3 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		C916749929142608005FF1B3 /* HouseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseViewModel.swift; sourceTree = "<group>"; };
+		C916749F29142F45005FF1B3 /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
+		C91674A229142F88005FF1B3 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		C91674A529142FBA005FF1B3 /* HouseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseService.swift; sourceTree = "<group>"; };
+		C91674A72914300A005FF1B3 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		C91674A9291431D3005FF1B3 /* RequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHandler.swift; sourceTree = "<group>"; };
+		C91674AB29143370005FF1B3 /* ResponseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseHandler.swift; sourceTree = "<group>"; };
+		C9ADE33C291451A0002284BA /* HouseDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseDetailsViewModel.swift; sourceTree = "<group>"; };
+		C9ADE33E291451C0002284BA /* HouseDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseDetailsViewController.swift; sourceTree = "<group>"; };
+		C9ADE34029145439002284BA /* HouseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseTableViewCell.swift; sourceTree = "<group>"; };
+		C9ADE34129145439002284BA /* HouseTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HouseTableViewCell.xib; sourceTree = "<group>"; };
+		C9ADE34429146C8A002284BA /* HouseFieldModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseFieldModel.swift; sourceTree = "<group>"; };
+		C9ADE34629146D12002284BA /* HouseField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseField.swift; sourceTree = "<group>"; };
 		C9BB509129140E1C00EE852A /* Magnar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Magnar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9BB509429140E1C00EE852A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9BB509629140E1C00EE852A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +121,7 @@
 		C916749B291427FA005FF1B3 /* House */ = {
 			isa = PBXGroup;
 			children = (
+				C9ADE33B2914518F002284BA /* HouseDetails */,
 				C9BB509829140E1C00EE852A /* HouseViewController.swift */,
 				C916749929142608005FF1B3 /* HouseViewModel.swift */,
 			);
@@ -134,6 +159,61 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
+		C91674A129142F7B005FF1B3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C91674A429142FAA005FF1B3 /* HouseService */,
+				C91674A229142F88005FF1B3 /* NetworkService.swift */,
+				C91674A9291431D3005FF1B3 /* RequestHandler.swift */,
+				C91674AB29143370005FF1B3 /* ResponseHandler.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C91674A429142FAA005FF1B3 /* HouseService */ = {
+			isa = PBXGroup;
+			children = (
+				C91674A529142FBA005FF1B3 /* HouseService.swift */,
+			);
+			path = HouseService;
+			sourceTree = "<group>";
+		};
+		C91674AD291441AC005FF1B3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C916749F29142F45005FF1B3 /* House.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C9ADE33B2914518F002284BA /* HouseDetails */ = {
+			isa = PBXGroup;
+			children = (
+				C9ADE33C291451A0002284BA /* HouseDetailsViewModel.swift */,
+				C9ADE33E291451C0002284BA /* HouseDetailsViewController.swift */,
+			);
+			path = HouseDetails;
+			sourceTree = "<group>";
+		};
+		C9ADE3482914DD1D002284BA /* HouseCell */ = {
+			isa = PBXGroup;
+			children = (
+				C9ADE34029145439002284BA /* HouseTableViewCell.swift */,
+				C9ADE34629146D12002284BA /* HouseField.swift */,
+				C9ADE34129145439002284BA /* HouseTableViewCell.xib */,
+				C9ADE34429146C8A002284BA /* HouseFieldModel.swift */,
+			);
+			path = HouseCell;
+			sourceTree = "<group>";
+		};
+		C9ADE3492914DD32002284BA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C9ADE3482914DD1D002284BA /* HouseCell */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		C9BB508829140E1C00EE852A = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +241,10 @@
 				C9BB509429140E1C00EE852A /* AppDelegate.swift */,
 				C9BB509629140E1C00EE852A /* SceneDelegate.swift */,
 				C916748929141BE4005FF1B3 /* Coordinator.swift */,
+				C91674A72914300A005FF1B3 /* NetworkError.swift */,
+				C9ADE3492914DD32002284BA /* UI */,
+				C91674A129142F7B005FF1B3 /* Services */,
+				C91674AD291441AC005FF1B3 /* Models */,
 				C916749E29142906005FF1B3 /* Main */,
 				C9BB509D29140E1F00EE852A /* Assets.xcassets */,
 				C9BB509F29140E1F00EE852A /* LaunchScreen.storyboard */,
@@ -292,6 +376,7 @@
 			files = (
 				C9BB50A129140E1F00EE852A /* LaunchScreen.storyboard in Resources */,
 				C9BB509E29140E1F00EE852A /* Assets.xcassets in Resources */,
+				C9ADE34329145439002284BA /* HouseTableViewCell.xib in Resources */,
 				C9BB50C52914109300EE852A /* Readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,18 +402,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C91674A629142FBA005FF1B3 /* HouseService.swift in Sources */,
+				C91674A82914300A005FF1B3 /* NetworkError.swift in Sources */,
 				C916748A29141BE4005FF1B3 /* Coordinator.swift in Sources */,
 				C91674982914217F005FF1B3 /* BaseViewModel.swift in Sources */,
 				C916749029141D12005FF1B3 /* TableViewModel.swift in Sources */,
 				C916749A29142608005FF1B3 /* HouseViewModel.swift in Sources */,
 				C916749429141E5B005FF1B3 /* TableSection.swift in Sources */,
 				C9BB509929140E1C00EE852A /* HouseViewController.swift in Sources */,
+				C9ADE33F291451C0002284BA /* HouseDetailsViewController.swift in Sources */,
+				C9ADE33D291451A0002284BA /* HouseDetailsViewModel.swift in Sources */,
+				C91674A329142F88005FF1B3 /* NetworkService.swift in Sources */,
 				C916749229141D3E005FF1B3 /* TableViewController.swift in Sources */,
 				C9BB509529140E1C00EE852A /* AppDelegate.swift in Sources */,
+				C91674AC29143370005FF1B3 /* ResponseHandler.swift in Sources */,
 				C916748C29141C11005FF1B3 /* MainCoordinator.swift in Sources */,
 				C916749629141E84005FF1B3 /* TableRow.swift in Sources */,
 				C9BB509729140E1C00EE852A /* SceneDelegate.swift in Sources */,
 				C916748E29141C86005FF1B3 /* BaseViewController.swift in Sources */,
+				C91674A029142F45005FF1B3 /* House.swift in Sources */,
+				C9ADE34229145439002284BA /* HouseTableViewCell.swift in Sources */,
+				C91674AA291431D3005FF1B3 /* RequestHandler.swift in Sources */,
+				C9ADE34529146C8A002284BA /* HouseFieldModel.swift in Sources */,
+				C9ADE34729146D12002284BA /* HouseField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

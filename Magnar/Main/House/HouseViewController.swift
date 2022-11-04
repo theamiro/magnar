@@ -7,10 +7,9 @@
 
 import UIKit
 
-class HouseViewController: TableViewController {    
+class HouseViewController: TableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-
         view.backgroundColor = .systemBackground
     }
 }

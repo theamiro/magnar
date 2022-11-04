@@ -16,9 +16,19 @@ class MainCoordinator: Coordinator {
 
     func start() {
         let viewController = HouseViewController()
+        let model = HouseViewModel()
+        model.goToHouseDetailView = goToHouseDetailView
         viewController.coordinator = self
-        let viewModel = HouseViewModel()
-        viewController.viewModel = viewModel
+        viewController.viewModel = model
+        viewController.onRowSelected = model.onRowSelected
         navigationController.pushViewController(viewController, animated: false)
+    }
+
+    func goToHouseDetailView(house: House) {
+        let viewController = HouseDetailsViewController()
+        viewController.coordinator = self
+        let model = HouseDetailsViewModel(house: house)
+        viewController.viewModel = model
+        navigationController.pushViewController(viewController, animated: true)
     }
 }

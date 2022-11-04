@@ -1,4 +1,4 @@
-name: iOS starter workflow
+name: Magnar Build Workflow
 
 on:
   push:
