@@ -30,4 +30,8 @@ class HouseField: TableRow {
 
         return houseViewCell
     }
+
+    func preferredHeight(for indexPath: IndexPath) -> CGFloat {
+        return 110
+    }
 }

@@ -30,6 +30,7 @@ class HouseViewModel: TableViewModel {
                 print(error)
             case .success(let houses):
                 self?.handleGetHousesSuccess(houses)
+                print(houses)
             }
         }
     }
@@ -41,6 +42,7 @@ class HouseViewModel: TableViewModel {
             let model = HouseFieldModel(name: house.name, region: house.region, numberOfMembers: house.swornMembers.count, overlord: house.overlord)
             sections[0].cells.append(HouseField(tag: index, model: model))
         }
+        modelDidUpdate()
     }
 
     func onRowSelected(indexPath: IndexPath) {

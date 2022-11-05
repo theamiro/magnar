@@ -17,6 +17,9 @@ class HouseTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+
+        backgroundColor = .clear
+        selectionStyle = .none
     }
 
     func configure(with model: HouseFieldModel) {

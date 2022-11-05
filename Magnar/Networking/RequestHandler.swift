@@ -18,7 +18,6 @@ class RequestHandler: RequestHandlerDelegate {
             return
         }
         let request = URLRequest(url: url)
-        print("Requesting from: \(request)")
         URLSession.shared.dataTask(with: request) { data, response, error in
             guard error == nil else {
                 completion(.failure(.errorFetchingData))
@@ -28,7 +27,6 @@ class RequestHandler: RequestHandlerDelegate {
                 completion(.failure(.invalidResponseStatusCode))
                 return
             }
-            print("Response [\(response.statusCode)]")
             guard let data = data else {
                 completion(.failure(.emptyData))
                 return

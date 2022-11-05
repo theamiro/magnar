@@ -18,7 +18,6 @@ class ResponseHandler: ResponseHandlerDelegate {
             completion(.failure(.responseNotDecodable))
             return
         }
-        print("Response", response)
         completion(.success(response))
     }
 }

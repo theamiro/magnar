@@ -12,10 +12,14 @@ protocol TableRow: AnyObject {
     var nibName: String { get }
     var tag: Int { get }
     func configure(_ cell: UITableViewCell, indexPath: IndexPath, sender: TableViewController?) -> UITableViewCell
+    func preferredHeight(for indexPath: IndexPath) -> CGFloat
 }
 
 extension TableRow {
     func configure(_ cell: UITableViewCell, indexPath: IndexPath, sender: TableViewController? = nil) -> UITableViewCell {
         return cell
+    }
+    func preferredHeight(for indexPath: IndexPath) -> CGFloat {
+        UITableView.automaticDimension
     }
 }

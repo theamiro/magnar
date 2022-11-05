@@ -28,6 +28,10 @@
 		C9ADE34329145439002284BA /* HouseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADE34129145439002284BA /* HouseTableViewCell.xib */; };
 		C9ADE34529146C8A002284BA /* HouseFieldModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADE34429146C8A002284BA /* HouseFieldModel.swift */; };
 		C9ADE34729146D12002284BA /* HouseField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADE34629146D12002284BA /* HouseField.swift */; };
+		C9ADE35D2914FA76002284BA /* SimpleTextFieldModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADE3592914FA76002284BA /* SimpleTextFieldModel.swift */; };
+		C9ADE35E2914FA76002284BA /* SimpleTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADE35A2914FA76002284BA /* SimpleTextTableViewCell.swift */; };
+		C9ADE35F2914FA76002284BA /* SimpleTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADE35B2914FA76002284BA /* SimpleTextField.swift */; };
+		C9ADE3602914FA76002284BA /* SimpleTextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADE35C2914FA76002284BA /* SimpleTextTableViewCell.xib */; };
 		C9BB509529140E1C00EE852A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BB509429140E1C00EE852A /* AppDelegate.swift */; };
 		C9BB509729140E1C00EE852A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BB509629140E1C00EE852A /* SceneDelegate.swift */; };
 		C9BB509929140E1C00EE852A /* HouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BB509829140E1C00EE852A /* HouseViewController.swift */; };
@@ -78,6 +82,10 @@
 		C9ADE34129145439002284BA /* HouseTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HouseTableViewCell.xib; sourceTree = "<group>"; };
 		C9ADE34429146C8A002284BA /* HouseFieldModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseFieldModel.swift; sourceTree = "<group>"; };
 		C9ADE34629146D12002284BA /* HouseField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseField.swift; sourceTree = "<group>"; };
+		C9ADE3592914FA76002284BA /* SimpleTextFieldModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTextFieldModel.swift; sourceTree = "<group>"; };
+		C9ADE35A2914FA76002284BA /* SimpleTextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTextTableViewCell.swift; sourceTree = "<group>"; };
+		C9ADE35B2914FA76002284BA /* SimpleTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTextField.swift; sourceTree = "<group>"; };
+		C9ADE35C2914FA76002284BA /* SimpleTextTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleTextTableViewCell.xib; sourceTree = "<group>"; };
 		C9BB509129140E1C00EE852A /* Magnar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Magnar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9BB509429140E1C00EE852A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9BB509629140E1C00EE852A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -159,7 +167,7 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
-		C91674A129142F7B005FF1B3 /* Services */ = {
+		C91674A129142F7B005FF1B3 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
 				C91674A429142FAA005FF1B3 /* HouseService */,
@@ -167,7 +175,7 @@
 				C91674A9291431D3005FF1B3 /* RequestHandler.swift */,
 				C91674AB29143370005FF1B3 /* ResponseHandler.swift */,
 			);
-			path = Services;
+			path = Networking;
 			sourceTree = "<group>";
 		};
 		C91674A429142FAA005FF1B3 /* HouseService */ = {
@@ -209,9 +217,21 @@
 		C9ADE3492914DD32002284BA /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				C9ADE3582914FA76002284BA /* SimpleTextField */,
 				C9ADE3482914DD1D002284BA /* HouseCell */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		C9ADE3582914FA76002284BA /* SimpleTextField */ = {
+			isa = PBXGroup;
+			children = (
+				C9ADE3592914FA76002284BA /* SimpleTextFieldModel.swift */,
+				C9ADE35A2914FA76002284BA /* SimpleTextTableViewCell.swift */,
+				C9ADE35B2914FA76002284BA /* SimpleTextField.swift */,
+				C9ADE35C2914FA76002284BA /* SimpleTextTableViewCell.xib */,
+			);
+			path = SimpleTextField;
 			sourceTree = "<group>";
 		};
 		C9BB508829140E1C00EE852A = {
@@ -243,7 +263,7 @@
 				C916748929141BE4005FF1B3 /* Coordinator.swift */,
 				C91674A72914300A005FF1B3 /* NetworkError.swift */,
 				C9ADE3492914DD32002284BA /* UI */,
-				C91674A129142F7B005FF1B3 /* Services */,
+				C91674A129142F7B005FF1B3 /* Networking */,
 				C91674AD291441AC005FF1B3 /* Models */,
 				C916749E29142906005FF1B3 /* Main */,
 				C9BB509D29140E1F00EE852A /* Assets.xcassets */,
@@ -374,6 +394,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9ADE3602914FA76002284BA /* SimpleTextTableViewCell.xib in Resources */,
 				C9BB50A129140E1F00EE852A /* LaunchScreen.storyboard in Resources */,
 				C9BB509E29140E1F00EE852A /* Assets.xcassets in Resources */,
 				C9ADE34329145439002284BA /* HouseTableViewCell.xib in Resources */,
@@ -415,10 +436,13 @@
 				C91674A329142F88005FF1B3 /* NetworkService.swift in Sources */,
 				C916749229141D3E005FF1B3 /* TableViewController.swift in Sources */,
 				C9BB509529140E1C00EE852A /* AppDelegate.swift in Sources */,
+				C9ADE35F2914FA76002284BA /* SimpleTextField.swift in Sources */,
 				C91674AC29143370005FF1B3 /* ResponseHandler.swift in Sources */,
 				C916748C29141C11005FF1B3 /* MainCoordinator.swift in Sources */,
+				C9ADE35E2914FA76002284BA /* SimpleTextTableViewCell.swift in Sources */,
 				C916749629141E84005FF1B3 /* TableRow.swift in Sources */,
 				C9BB509729140E1C00EE852A /* SceneDelegate.swift in Sources */,
+				C9ADE35D2914FA76002284BA /* SimpleTextFieldModel.swift in Sources */,
 				C916748E29141C86005FF1B3 /* BaseViewController.swift in Sources */,
 				C91674A029142F45005FF1B3 /* House.swift in Sources */,
 				C9ADE34229145439002284BA /* HouseTableViewCell.swift in Sources */,

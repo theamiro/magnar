@@ -9,5 +9,6 @@ import Foundation
 
 struct TableSection {
     var id: Int
+    var title: String?
     var cells: [TableRow]
 }
