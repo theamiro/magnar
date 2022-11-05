@@ -7,11 +7,8 @@
 
 import UIKit
 
-class BaseViewController: UITabBarController {
-    var coordinator: Coordinator?
-    var viewModel: BaseViewModel?
+class BaseViewController: TableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .red
     }
 }
