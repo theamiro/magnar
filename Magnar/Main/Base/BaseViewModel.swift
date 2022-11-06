@@ -7,7 +7,7 @@
 
 import Foundation
 
-class BaseViewModel: TableViewModel {
+class BaseViewModel: TableBackedViewModel {
     var goToHousesView: () -> Void = { }
     var goToCharactersView: () -> Void = { }
     var goToBooksView: () -> Void = { }

@@ -8,7 +8,6 @@
 import UIKit
 
 class MainCoordinator: NSObject, UINavigationControllerDelegate, Coordinator {
-    var parentCoordinator: Coordinator?
     var childCoordinators: [Coordinator] = []
     var navigationController: UINavigationController
 
@@ -54,10 +53,10 @@ class MainCoordinator: NSObject, UINavigationControllerDelegate, Coordinator {
         guard let fromViewController = navigationController.transitionCoordinator?.viewController(forKey: .from) else {
             return
         }
-        if navigationController.viewControllers.contains(viewController) {
+        if navigationController.viewControllers.contains(fromViewController) {
             return
         }
-        if let viewController = fromViewController as? TableViewController {
+        if let viewController = fromViewController as? TableBackedViewController {
             completeWorkflow(viewController.coordinator)
         }
     }

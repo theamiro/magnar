@@ -22,7 +22,7 @@ class HouseField: TableRow {
         self.model = model
     }
 
-    func configure(_ cell: UITableViewCell, indexPath: IndexPath, sender: TableViewController? = nil) -> UITableViewCell {
+    func configure(_ cell: UITableViewCell, indexPath: IndexPath, sender: TableBackedViewController? = nil) -> UITableViewCell {
         guard let houseViewCell = cell as? HouseTableViewCell else { return cell }
         modelDidUpdate = houseViewCell.configure
 

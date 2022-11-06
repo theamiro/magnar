@@ -7,7 +7,7 @@
 
 import Foundation
 
-class HouseDetailsViewModel: TableViewModel {
+class HouseDetailsViewModel: TableBackedViewModel {
     var state: State
 
     init(house: House) {

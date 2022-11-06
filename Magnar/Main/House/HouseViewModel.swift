@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HouseViewModel: TableViewModel {
+class HouseViewModel: TableBackedViewModel {
     private var state = State()
     private let houseService: HouseServiceDelegate
 

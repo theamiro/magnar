@@ -7,7 +7,7 @@
 
 import Foundation
 
-class BookDetailViewController: TableViewController {
+class BookDetailViewController: TableBackedViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }

@@ -7,7 +7,7 @@
 
 import Foundation
 
-class CharacterDetailsViewController: TableViewController {
+class CharacterDetailsViewController: TableBackedViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
