@@ -12,17 +12,17 @@ class BaseViewModel: TableViewModel {
     var goToCharactersView: () -> Void = { }
     var goToBooksView: () -> Void = { }
 
-    lazy var houses: SimpleTextField = {
-        let model = SimpleTextFieldModel(text: "GOT Houses")
-        return SimpleTextField(tag: Tag.Cell.houses, model: model)
+    lazy var houses: BaseField = {
+        let model = BaseFieldModel(title: "Houses", subtitle: "The houses that exist on game of thrones")
+        return BaseField(tag: Tag.Cell.houses, model: model)
     }()
-    lazy var characters: SimpleTextField = {
-        let model = SimpleTextFieldModel(text: "GOT Characters")
-        return SimpleTextField(tag: Tag.Cell.characters, model: model)
+    lazy var characters: BaseField = {
+        let model = BaseFieldModel(title: "Characters", subtitle: "The characters that exist on game of thrones")
+        return BaseField(tag: Tag.Cell.characters, model: model)
     }()
-    lazy var books: SimpleTextField = {
-        let model = SimpleTextFieldModel(text: "GOT Books")
-        return SimpleTextField(tag: Tag.Cell.books, model: model)
+    lazy var books: BaseField = {
+        let model = BaseFieldModel(title: "Books", subtitle: "The books that exist on game of thrones")
+        return BaseField(tag: Tag.Cell.books, model: model)
     }()
 
     override init() {

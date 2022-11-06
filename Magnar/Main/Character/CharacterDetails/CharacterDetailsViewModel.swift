@@ -12,5 +12,8 @@ class CharacterDetailsViewModel: TableViewModel {
 
     init(character: GOTCharacter) {
         self.character = character
+        super.init()
+
+        self.sections = []
     }
 }

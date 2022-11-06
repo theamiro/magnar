@@ -7,63 +7,39 @@
 
 import UIKit
 
-class MainCoordinator: Coordinator {
+class MainCoordinator: NSObject, UINavigationControllerDelegate, Coordinator {
+    var parentCoordinator: Coordinator?
+    var childCoordinators: [Coordinator] = []
     var navigationController: UINavigationController
 
     init(navigationController: UINavigationController) {
         self.navigationController = navigationController
     }
 
-    //    func start() {
-    //        let viewController = HouseViewController()
-    //        let model = HouseViewModel()
-    //        model.goToHouseDetailView = goToHouseDetailView
-    //        viewController.coordinator = self
-    //        viewController.viewModel = model
-    //        viewController.onRowSelected = model.onRowSelected
-    //        navigationController.pushViewController(viewController, animated: false)
-    //    }
-
     func start() {
+        navigationController.delegate = self
         let viewController = BaseViewController()
+        viewController.coordinator = self
         let model = BaseViewModel()
         model.goToCharactersView = goToCharactersView
-        model.goToHousesView = goToCharactersView
-//        model.goToBooksView = goToBooksView
-        viewController.coordinator = self
+        model.goToHousesView = goToHousesView
         viewController.viewModel = model
         viewController.onRowSelected = model.onRowSelected
         navigationController.pushViewController(viewController, animated: false)
     }
 
     func goToHousesView() {
-        let viewController = HouseViewController()
-        let model = HouseViewModel()
-        viewController.viewModel = model
-        navigationController.pushViewController(viewController, animated: true)
-    }
-
-    func goToHouseDetailView(house: House) {
-        let viewController = HouseDetailsViewController()
-        viewController.coordinator = self
-        let model = HouseDetailsViewModel(house: house)
-        viewController.viewModel = model
-        navigationController.pushViewController(viewController, animated: true)
+        let coordinator = HouseCoordinator(navigationController: navigationController)
+        coordinator.parentCoordinator = self
+        childCoordinators.append(coordinator)
+        coordinator.start()
     }
 
     func goToCharactersView() {
-        let viewController = CharacterViewController()
-        let model = CharacterViewModel()
-        viewController.viewModel = model
-        navigationController.pushViewController(viewController, animated: true)
-    }
-
-    func goToCharacterDetailView(character: GOTCharacter) {
-        let viewController = CharacterViewController()
-        viewController.coordinator = self
-        let model = CharacterDetailsViewModel(character: character)
-        viewController.viewModel = model
-        navigationController.pushViewController(viewController, animated: true)
+        let coordinator = CharacterCoordinator(navigationController: navigationController)
+        coordinator.parentCoordinator = self
+        childCoordinators.append(coordinator)
+        coordinator.start()
     }
 
 //    func goToBooksView() {
@@ -80,4 +56,23 @@ class MainCoordinator: Coordinator {
 //        viewController.viewModel = model
 //        navigationController.pushViewController(viewController, animated: true)
 //    }
+    func navigationController(_ navigationController: UINavigationController, didShow viewController: UIViewController, animated: Bool) {
+        guard let fromViewController = navigationController.transitionCoordinator?.viewController(forKey: .from) else {
+            return
+        }
+        if navigationController.viewControllers.contains(viewController) {
+            return
+        }
+        if let viewController = fromViewController as? TableViewController {
+            completeWorkflow(viewController.coordinator)
+        }
+    }
+    
+    func completeWorkflow(_ child: Coordinator?) {
+        for (index, coordinator) in childCoordinators.enumerated() {
+            if coordinator === child {
+                childCoordinators.remove(at: index)
+            }
+        }
+    }
 }

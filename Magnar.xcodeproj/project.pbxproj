@@ -51,6 +51,12 @@
 		C9E85B5429164FDC008FBF0F /* CharacterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9E85B5229164FDC008FBF0F /* CharacterTableViewCell.xib */; };
 		C9E85B5629165101008FBF0F /* CharacterField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E85B5529165101008FBF0F /* CharacterField.swift */; };
 		C9E85B582916512D008FBF0F /* CharacterFieldModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E85B572916512D008FBF0F /* CharacterFieldModel.swift */; };
+		C9E85B5A29166B5E008FBF0F /* HouseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E85B5929166B5E008FBF0F /* HouseCoordinator.swift */; };
+		C9E85B5C2917DE86008FBF0F /* CharacterCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E85B5B2917DE86008FBF0F /* CharacterCoordinator.swift */; };
+		C9E85B5F2917E2E2008FBF0F /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E85B5D2917E2E2008FBF0F /* BaseTableViewCell.swift */; };
+		C9E85B602917E2E2008FBF0F /* BaseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9E85B5E2917E2E2008FBF0F /* BaseTableViewCell.xib */; };
+		C9E85B632917E2FA008FBF0F /* BaseField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E85B622917E2FA008FBF0F /* BaseField.swift */; };
+		C9E85B652917E305008FBF0F /* BaseFieldModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E85B642917E305008FBF0F /* BaseFieldModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +125,12 @@
 		C9E85B5229164FDC008FBF0F /* CharacterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterTableViewCell.xib; sourceTree = "<group>"; };
 		C9E85B5529165101008FBF0F /* CharacterField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterField.swift; sourceTree = "<group>"; };
 		C9E85B572916512D008FBF0F /* CharacterFieldModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterFieldModel.swift; sourceTree = "<group>"; };
+		C9E85B5929166B5E008FBF0F /* HouseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseCoordinator.swift; sourceTree = "<group>"; };
+		C9E85B5B2917DE86008FBF0F /* CharacterCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCoordinator.swift; sourceTree = "<group>"; };
+		C9E85B5D2917E2E2008FBF0F /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		C9E85B5E2917E2E2008FBF0F /* BaseTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseTableViewCell.xib; sourceTree = "<group>"; };
+		C9E85B622917E2FA008FBF0F /* BaseField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseField.swift; sourceTree = "<group>"; };
+		C9E85B642917E305008FBF0F /* BaseFieldModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseFieldModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +164,7 @@
 				C9ADE33B2914518F002284BA /* HouseDetails */,
 				C9BB509829140E1C00EE852A /* HouseViewController.swift */,
 				C916749929142608005FF1B3 /* HouseViewModel.swift */,
+				C9E85B5929166B5E008FBF0F /* HouseCoordinator.swift */,
 			);
 			path = House;
 			sourceTree = "<group>";
@@ -231,6 +244,7 @@
 				C94DCF4D29164B1F00F6D1BD /* CharacterDetails */,
 				C94DCF4929164AD600F6D1BD /* CharacterViewModel.swift */,
 				C94DCF4B29164AF200F6D1BD /* CharacterViewController.swift */,
+				C9E85B5B2917DE86008FBF0F /* CharacterCoordinator.swift */,
 			);
 			path = Character;
 			sourceTree = "<group>";
@@ -270,6 +284,7 @@
 				C9E85B5029164FB5008FBF0F /* CharacterCell */,
 				C9ADE3582914FA76002284BA /* SimpleTextField */,
 				C9ADE3482914DD1D002284BA /* HouseCell */,
+				C9E85B612917E2E9008FBF0F /* BaseCell */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -350,6 +365,17 @@
 				C9E85B572916512D008FBF0F /* CharacterFieldModel.swift */,
 			);
 			path = CharacterCell;
+			sourceTree = "<group>";
+		};
+		C9E85B612917E2E9008FBF0F /* BaseCell */ = {
+			isa = PBXGroup;
+			children = (
+				C9E85B5D2917E2E2008FBF0F /* BaseTableViewCell.swift */,
+				C9E85B5E2917E2E2008FBF0F /* BaseTableViewCell.xib */,
+				C9E85B622917E2FA008FBF0F /* BaseField.swift */,
+				C9E85B642917E305008FBF0F /* BaseFieldModel.swift */,
+			);
+			path = BaseCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -456,6 +482,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9E85B602917E2E2008FBF0F /* BaseTableViewCell.xib in Resources */,
 				C9ADE3602914FA76002284BA /* SimpleTextTableViewCell.xib in Resources */,
 				C9BB50A129140E1F00EE852A /* LaunchScreen.storyboard in Resources */,
 				C9BB509E29140E1F00EE852A /* Assets.xcassets in Resources */,
@@ -487,6 +514,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C91674A629142FBA005FF1B3 /* HouseService.swift in Sources */,
+				C9E85B632917E2FA008FBF0F /* BaseField.swift in Sources */,
 				C94DCF5129164B6100F6D1BD /* CharacterDetailsViewController.swift in Sources */,
 				C91674A82914300A005FF1B3 /* NetworkError.swift in Sources */,
 				C916748A29141BE4005FF1B3 /* Coordinator.swift in Sources */,
@@ -500,12 +528,15 @@
 				C916749429141E5B005FF1B3 /* TableSection.swift in Sources */,
 				C9BB509929140E1C00EE852A /* HouseViewController.swift in Sources */,
 				C9ADE33F291451C0002284BA /* HouseDetailsViewController.swift in Sources */,
+				C9E85B5C2917DE86008FBF0F /* CharacterCoordinator.swift in Sources */,
 				C9ADE33D291451A0002284BA /* HouseDetailsViewModel.swift in Sources */,
 				C91674A329142F88005FF1B3 /* NetworkService.swift in Sources */,
 				C94DCF47291649C000F6D1BD /* GOTCharacter.swift in Sources */,
 				C916749229141D3E005FF1B3 /* TableViewController.swift in Sources */,
 				C9E85B5629165101008FBF0F /* CharacterField.swift in Sources */,
+				C9E85B5A29166B5E008FBF0F /* HouseCoordinator.swift in Sources */,
 				C9BB509529140E1C00EE852A /* AppDelegate.swift in Sources */,
+				C9E85B5F2917E2E2008FBF0F /* BaseTableViewCell.swift in Sources */,
 				C9ADE35F2914FA76002284BA /* SimpleTextField.swift in Sources */,
 				C91674AC29143370005FF1B3 /* ResponseHandler.swift in Sources */,
 				C916748C29141C11005FF1B3 /* MainCoordinator.swift in Sources */,
@@ -521,6 +552,7 @@
 				C94DCF4A29164AD600F6D1BD /* CharacterViewModel.swift in Sources */,
 				C9ADE34529146C8A002284BA /* HouseFieldModel.swift in Sources */,
 				C9ADE34729146D12002284BA /* HouseField.swift in Sources */,
+				C9E85B652917E305008FBF0F /* BaseFieldModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
