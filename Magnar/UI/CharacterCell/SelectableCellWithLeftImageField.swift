@@ -7,23 +7,23 @@
 
 import UIKit
 
-class CharacterField: TableRow {
-    var reuseIdentifier = "CharacterTableViewCell"
-    var nibName = "CharacterTableViewCell"
+class SelectableCellWithLeftImageField: TableRow {
+    var reuseIdentifier = "SelectableCellWithLeftImage"
+    var nibName = "SelectableCellWithLeftImage"
     var tag: Int
-    var modelDidUpdate: (CharacterFieldModel) -> Void = {_ in}
+    var modelDidUpdate: (SelectableCellWithLeftImageFieldModel) -> Void = {_ in}
 
-    var model: CharacterFieldModel {
+    var model: SelectableCellWithLeftImageFieldModel {
         didSet { modelDidUpdate(model) }
     }
 
-    init(tag: Int, model: CharacterFieldModel) {
+    init(tag: Int, model: SelectableCellWithLeftImageFieldModel) {
         self.tag = tag
         self.model = model
     }
 
     func configure(_ cell: UITableViewCell, indexPath: IndexPath, sender: TableViewController?) -> UITableViewCell {
-        guard let characterCell = cell as? CharacterTableViewCell else { return cell }
+        guard let characterCell = cell as? SelectableCellWithLeftImage else { return cell }
         modelDidUpdate = characterCell.configure
         characterCell.configure(with: model)
         return characterCell

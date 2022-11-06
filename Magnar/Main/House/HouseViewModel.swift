@@ -16,7 +16,7 @@ class HouseViewModel: TableViewModel {
     init(houseService: HouseServiceDelegate = HouseService(networkService: NetworkService())) {
         self.houseService = houseService
         super.init()
-        self.title = "Houses"
+        title = "Houses"
 
         self.sections = [TableSection(id: 0, cells: [])]
 
