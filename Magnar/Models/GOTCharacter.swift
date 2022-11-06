@@ -6,6 +6,16 @@
 //
 
 struct GOTCharacter: Decodable {
-    let name, culture, born: String
-    let aliases, playedBy: [String]
+    let name: String
+    let gender: String
+    let culture: String
+    let born: String
+    let died: String
+    let titles: [String]
+    let aliases: [String]
+    let playedBy: [String]
+    let allegiances: [String]
+    let books: [String]
+    let povBooks: [String]
+    let tvSeries: [String]
 }

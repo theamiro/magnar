@@ -1,5 +1,5 @@
 //
-//  TableViewController.swift
+//  TableBackedViewController.swift
 //  Magnar
 //
 //  Created by Michael Amiro on 03/11/2022.
@@ -7,12 +7,12 @@
 
 import UIKit
 
-class TableViewController: UIViewController {
+class TableBackedViewController: UIViewController {
     var coordinator: Coordinator?
     var onRowSelected: (IndexPath) -> Void = { _ in }
     var knownIdentifiers: [String] = []
 
-    var viewModel: TableViewModel! {
+    var viewModel: TableBackedViewModel! {
         didSet {
             viewModel.modelDidUpdate = { [weak self] in
                 DispatchQueue.main.async {
@@ -104,7 +104,6 @@ class TableViewController: UIViewController {
             return label
         }()
         let headerView = UIView()
-        headerView.backgroundColor = UIColor(named: "secondaryBackgroundColor")
 
         headerView.addSubview(titleLabel)
         headerView.addConstraints([
@@ -116,7 +115,7 @@ class TableViewController: UIViewController {
         return headerView
     }
 }
-extension TableViewController: UITableViewDataSource, UITableViewDelegate {
+extension TableBackedViewController: UITableViewDataSource, UITableViewDelegate {
     func numberOfSections(in tableView: UITableView) -> Int {
         registerCellNIBsIfNeeded()
         return viewModel?.sections.count ?? 0

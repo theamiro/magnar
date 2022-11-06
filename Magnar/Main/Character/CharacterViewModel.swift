@@ -7,7 +7,7 @@
 
 import Foundation
 
-class CharacterViewModel: TableViewModel {
+class CharacterViewModel: TableBackedViewModel {
     private let characterService: GOTCharacterServiceDelegate
     var goToCharacterDetailView: (GOTCharacter) -> Void = { _ in }
     var state: State = State()

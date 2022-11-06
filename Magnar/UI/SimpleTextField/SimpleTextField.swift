@@ -22,13 +22,17 @@ class SimpleTextField: TableRow {
         self.model = model
     }
 
-    func configure(_ cell: UITableViewCell, indexPath: IndexPath, sender: TableViewController?) -> UITableViewCell {
+    func configure(_ cell: UITableViewCell, indexPath: IndexPath, sender: TableBackedViewController?) -> UITableViewCell {
         guard let simpleTextCell = cell as? SimpleTextTableViewCell else { return cell }
         modelDidUpdate = simpleTextCell.configure
 
         simpleTextCell.configure(with: model)
 
         return simpleTextCell
+    }
+
+    func preferredHeight(for indexPath: IndexPath) -> CGFloat {
+        return 54.0
     }
 
 }

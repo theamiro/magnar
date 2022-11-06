@@ -7,13 +7,121 @@
 
 import Foundation
 
-class CharacterDetailsViewModel: TableViewModel {
-    var character: GOTCharacter
-
-    init(character: GOTCharacter) {
-        self.character = character
+class CharacterDetailsViewModel: TableBackedViewModel {
+    var state: State
+    private let houseService: HouseServiceDelegate
+    init(houseService: HouseServiceDelegate = HouseService(networkService: NetworkService()),
+         character: GOTCharacter) {
+        self.state = State(character: character)
+        self.houseService = houseService
         super.init()
+        self.title = state.character.name == "" ? state.character.aliases.first ?? "No Name" : "Nameless"
+        
+        sections.append(makeGenderSection())
+        sections.append(makeTitlesSection())
+        sections.append(makeAliasesSection())
+        if state.character.allegiances.count > 0 {
+            sections.append(makeAllegiancesSection())
+        }
+        sections.append(makeBooksSection())
+        if state.character.povBooks.count > 0 {
+            sections.append(makePOVBooksSection())
+        }
+        sections.append(makeTVSeriesSection())
+    }
 
-        self.sections = []
+    func makeGenderSection() -> TableSection {
+        let model = SimpleTextFieldModel(text: state.character.gender)
+        return TableSection(id: Tag.Section.gender, title: "Gender", cells: [SimpleTextField(tag: 0, model: model)])
+    }
+
+    func makeTitlesSection() -> TableSection {
+        let cells = state.character.titles.enumerated().map { item -> SimpleTextField in
+            let index = item.offset
+            let title = item.element
+            let model = SimpleTextFieldModel(text: title == "" ? "None" : title)
+            return SimpleTextField(tag: index, model: model)
+        }
+        return TableSection(id: Tag.Section.titles, title: "Titles", cells: cells)
+    }
+
+    func makeAliasesSection() -> TableSection {
+        let cells = state.character.aliases.enumerated().map { item -> SimpleTextField in
+            let index = item.offset
+            let alias = item.element
+            let model = SimpleTextFieldModel(text: alias)
+            return SimpleTextField(tag: index, model: model)
+        }
+        return TableSection(id: Tag.Section.aliases, title: "Aliases", cells: cells)
+    }
+
+    func makeAllegiancesSection() -> TableSection {
+        let cells = state.character.allegiances.enumerated().map { item -> SimpleTextField in
+            let index = item.offset
+            let allegiance = item.element
+            let model = SimpleTextFieldModel(text: allegiance)
+            return SimpleTextField(tag: index, model: model)
+        }
+        return TableSection(id: Tag.Section.allegiances, title: "Allegiances", cells: cells)
+    }
+
+    func makeBooksSection() -> TableSection {
+        let cells = state.character.books.enumerated().map { item -> SimpleTextField in
+            let index = item.offset
+            let book = item.element
+            let model = SimpleTextFieldModel(text: book)
+            return SimpleTextField(tag: index, model: model)
+        }
+        return TableSection(id: Tag.Section.books, title: "Books", cells: cells)
+    }
+
+    func makePOVBooksSection() -> TableSection {
+        let cells = state.character.povBooks.enumerated().map { item -> SimpleTextField in
+            let index = item.offset
+            let book = item.element
+            let model = SimpleTextFieldModel(text: book)
+            return SimpleTextField(tag: index, model: model)
+        }
+        return TableSection(id: Tag.Section.povBooks, title: "POV Books", cells: cells)
+    }
+
+    func makeTVSeriesSection() -> TableSection {
+        let cells = state.character.tvSeries.enumerated().map { item -> SimpleTextField in
+            let index = item.offset
+            let series = item.element
+            let model = SimpleTextFieldModel(text: series)
+            return SimpleTextField(tag: index, model: model)
+        }
+        return TableSection(id: Tag.Section.tvSeries, title: "TV Series", cells: cells)
+    }
+
+    func getHouseByURL(url: String) -> House? {
+        var fetchedHouse: House?
+        houseService.getHouseByURL(url: url) { result in
+            switch result {
+            case .failure(let error):
+                print(error)
+                break
+            case .success(let house):
+                fetchedHouse = house
+            }
+        }
+        return fetchedHouse
+    }
+
+    struct State {
+        var character: GOTCharacter
+    }
+
+    enum Tag {
+        enum Section {
+            static let gender = 0
+            static let titles = 1
+            static let aliases = 2
+            static let allegiances = 3
+            static let books = 4
+            static let povBooks = 5
+            static let tvSeries = 6
+        }
     }
 }

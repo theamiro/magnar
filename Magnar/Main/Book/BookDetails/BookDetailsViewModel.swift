@@ -7,7 +7,7 @@
 
 import Foundation
 
-class BookDetailViewModel: TableViewModel {
+class BookDetailViewModel: TableBackedViewModel {
     init(book: Book) {
         super.init()
         title = book.name

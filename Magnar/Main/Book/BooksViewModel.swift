@@ -7,7 +7,7 @@
 
 import Foundation
 
-class BooksViewModel: TableViewModel {
+class BooksViewModel: TableBackedViewModel {
     private let bookService: BookServiceDelegate
     var goToBookDetailView: (Book) -> Void = { _ in }
     var state: State = State()

@@ -22,7 +22,7 @@ class SelectableCellWithLeftImageField: TableRow {
         self.model = model
     }
 
-    func configure(_ cell: UITableViewCell, indexPath: IndexPath, sender: TableViewController?) -> UITableViewCell {
+    func configure(_ cell: UITableViewCell, indexPath: IndexPath, sender: TableBackedViewController?) -> UITableViewCell {
         guard let characterCell = cell as? SelectableCellWithLeftImage else { return cell }
         modelDidUpdate = characterCell.configure
         characterCell.configure(with: model)

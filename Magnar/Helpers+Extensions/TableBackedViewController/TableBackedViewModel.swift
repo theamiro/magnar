@@ -1,5 +1,5 @@
 //
-//  TableViewModel.swift
+//  TableBackedViewModel.swift
 //  Magnar
 //
 //  Created by Michael Amiro on 03/11/2022.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TableViewModel {
+class TableBackedViewModel {
     var sections: [TableSection] = []
     var title: String = ""
 

@@ -20,7 +20,7 @@ struct SelectableCellWithLeftImageFieldModel {
 }
 extension SelectableCellWithLeftImageFieldModel {
     init(with character: GOTCharacter) {
-        self.title = character.name == "" ? "Nameless" : character.name
+        self.title = character.name == "" ? character.aliases.first ?? "No name" : character.name
         self.subtitle = character.aliases.first ?? ""
         self.tertiaryTitle = character.culture
         self.quaternaryTitle = character.playedBy.first ?? ""

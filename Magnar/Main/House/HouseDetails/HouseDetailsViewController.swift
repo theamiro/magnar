@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HouseDetailsViewController: TableViewController {
+class HouseDetailsViewController: TableBackedViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }

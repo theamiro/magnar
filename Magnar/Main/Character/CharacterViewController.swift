@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CharacterViewController: TableViewController {
+class CharacterViewController: TableBackedViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
