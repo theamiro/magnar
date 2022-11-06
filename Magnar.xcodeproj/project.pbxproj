@@ -285,7 +285,6 @@
 			children = (
 				C9BB509D29140E1F00EE852A /* Assets.xcassets */,
 				C9BB509F29140E1F00EE852A /* LaunchScreen.storyboard */,
-				C9BB50A229140E1F00EE852A /* Info.plist */,
 				C9BB509429140E1C00EE852A /* AppDelegate.swift */,
 				C9BB509629140E1C00EE852A /* SceneDelegate.swift */,
 			);
@@ -386,6 +385,7 @@
 		C9BB509329140E1C00EE852A /* Magnar */ = {
 			isa = PBXGroup;
 			children = (
+				C9BB50A229140E1F00EE852A /* Info.plist */,
 				C91AE556291861F5002B7A2E /* SupportFiles */,
 				C91AE555291861A5002B7A2E /* Helpers+Extensions */,
 				C9ADE3492914DD32002284BA /* UI */,
