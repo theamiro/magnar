@@ -9,7 +9,6 @@ import Foundation
 
 protocol RequestHandlerDelegate {
     func fetch(url: String, completion: @escaping(Result<Data, NetworkError>) -> Void)
-    func fetch(name: String, `extension`: String, completion: @escaping(Result<Data, NetworkError>) -> Void)
 }
 
 class RequestHandler: RequestHandlerDelegate {

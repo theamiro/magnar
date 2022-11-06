@@ -27,6 +27,8 @@
 		C91AE54B2918587A002B7A2E /* characters.json in Resources */ = {isa = PBXBuildFile; fileRef = C91AE54A2918587A002B7A2E /* characters.json */; };
 		C91AE54E291858B1002B7A2E /* books.json in Resources */ = {isa = PBXBuildFile; fileRef = C91AE54D291858B0002B7A2E /* books.json */; };
 		C91AE550291858FC002B7A2E /* houses.json in Resources */ = {isa = PBXBuildFile; fileRef = C91AE54F291858FC002B7A2E /* houses.json */; };
+		C91AE55229185EEA002B7A2E /* BooksViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91AE55129185EEA002B7A2E /* BooksViewModelTests.swift */; };
+		C91AE55429185FE5002B7A2E /* HousesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91AE55329185FE5002B7A2E /* HousesViewModelTests.swift */; };
 		C94DCF452916495E00F6D1BD /* CharacterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94DCF442916495E00F6D1BD /* CharacterService.swift */; };
 		C94DCF47291649C000F6D1BD /* GOTCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94DCF46291649C000F6D1BD /* GOTCharacter.swift */; };
 		C94DCF4A29164AD600F6D1BD /* CharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94DCF4929164AD600F6D1BD /* CharacterViewModel.swift */; };
@@ -109,6 +111,8 @@
 		C91AE54A2918587A002B7A2E /* characters.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = characters.json; sourceTree = "<group>"; };
 		C91AE54D291858B0002B7A2E /* books.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = books.json; sourceTree = "<group>"; };
 		C91AE54F291858FC002B7A2E /* houses.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = houses.json; sourceTree = "<group>"; };
+		C91AE55129185EEA002B7A2E /* BooksViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewModelTests.swift; sourceTree = "<group>"; };
+		C91AE55329185FE5002B7A2E /* HousesViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousesViewModelTests.swift; sourceTree = "<group>"; };
 		C94DCF442916495E00F6D1BD /* CharacterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterService.swift; sourceTree = "<group>"; };
 		C94DCF46291649C000F6D1BD /* GOTCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOTCharacter.swift; sourceTree = "<group>"; };
 		C94DCF4929164AD600F6D1BD /* CharacterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewModel.swift; sourceTree = "<group>"; };
@@ -380,6 +384,8 @@
 			isa = PBXGroup;
 			children = (
 				C9BB50AB29140E1F00EE852A /* MagnarTests.swift */,
+				C91AE55129185EEA002B7A2E /* BooksViewModelTests.swift */,
+				C91AE55329185FE5002B7A2E /* HousesViewModelTests.swift */,
 				C91AE54629183E4E002B7A2E /* CharactersViewModelTests.swift */,
 				C91AE548291841D8002B7A2E /* HomeViewModelTests.swift */,
 				C91AE54C29185894002B7A2E /* MockData */,
@@ -639,8 +645,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C91AE54729183E4E002B7A2E /* CharactersViewModelTests.swift in Sources */,
+				C91AE55229185EEA002B7A2E /* BooksViewModelTests.swift in Sources */,
 				C9BB50AC29140E1F00EE852A /* MagnarTests.swift in Sources */,
 				C91AE549291841D8002B7A2E /* HomeViewModelTests.swift in Sources */,
+				C91AE55429185FE5002B7A2E /* HousesViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

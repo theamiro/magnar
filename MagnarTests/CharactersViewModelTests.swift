@@ -21,7 +21,7 @@ class CharactersViewModelMock: CharacterViewModel {
 final class CharactersViewModelTests: XCTestCase {
     var sut: CharactersViewModelMock!
 
-    var networkService = NetworkService(shouldMock: true)
+    var networkService = NetworkService()
 
     lazy var characterService: GOTCharacterService = {
         let characterService = GOTCharacterService(networkService: networkService)
@@ -29,7 +29,6 @@ final class CharactersViewModelTests: XCTestCase {
     }()
 
     override func setUpWithError() throws {
-        let characterService = GOTCharacterService(networkService: networkService)
         sut = CharactersViewModelMock(characterService: characterService)
         sut.goToCharacterDetailView = { [weak self] _ in
             self?.sut.isGoToCharacterDetailViewCalled = true
@@ -42,14 +41,7 @@ final class CharactersViewModelTests: XCTestCase {
     }
 
     func testInitialStateWithMockData() {
-        characterService.getCharacters { result in
-            switch result {
-            case .failure(let error):
-                print(error)
-            case .success(let characters):
-                print(characters)
-            }
-        }
+        
     }
 
 //    func testGoToCharacterDetailsView() {
