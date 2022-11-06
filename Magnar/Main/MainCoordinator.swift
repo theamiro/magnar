@@ -23,6 +23,7 @@ class MainCoordinator: NSObject, UINavigationControllerDelegate, Coordinator {
         let model = BaseViewModel()
         model.goToCharactersView = goToCharactersView
         model.goToHousesView = goToHousesView
+        model.goToBooksView = goToBooksView
         viewController.viewModel = model
         viewController.onRowSelected = model.onRowSelected
         navigationController.pushViewController(viewController, animated: false)
@@ -42,20 +43,13 @@ class MainCoordinator: NSObject, UINavigationControllerDelegate, Coordinator {
         coordinator.start()
     }
 
-//    func goToBooksView() {
-//        let viewController = BooksViewController()
-//        let model = BooksViewModel()
-//        viewController.viewModel = model
-//        navigationController.pushViewController(viewController, animated: true)
-//    }
-//
-//    func goToBooksDetailView(book: Book) {
-//        let viewController = BookDetailsViewController()
-//        viewController.coordinator = self
-//        let model = BookDetailsViewModel(character: character)
-//        viewController.viewModel = model
-//        navigationController.pushViewController(viewController, animated: true)
-//    }
+    func goToBooksView() {
+        let coordinator = BookCoordinator(navigationController: navigationController)
+        coordinator.parentCoordinator = self
+        childCoordinators.append(coordinator)
+        coordinator.start()
+    }
+
     func navigationController(_ navigationController: UINavigationController, didShow viewController: UIViewController, animated: Bool) {
         guard let fromViewController = navigationController.transitionCoordinator?.viewController(forKey: .from) else {
             return

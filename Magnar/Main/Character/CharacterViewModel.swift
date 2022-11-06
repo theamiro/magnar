@@ -18,21 +18,25 @@ class CharacterViewModel: TableViewModel {
         self.sections = [TableSection(id: 0, cells: [])]
         title = "Characters"
 
+        getCharacters()
+    }
+
+    func getCharacters() {
         characterService.getCharacters { [weak self] result in
             switch result {
             case .failure(let error):
                 print(error)
             case .success(let characters):
                 self?.state.characters = characters
-                self?.makeSections()
+                self?.makeCharacterCells()
             }
         }
     }
 
-    private func makeSections() {
+    private func makeCharacterCells() {
         for index in state.characters.indices {
-            let model = CharacterFieldModel(with: state.characters[index])
-            sections[0].cells.append(CharacterField(tag: index, model: model))
+            let model = SelectableCellWithLeftImageFieldModel(with: state.characters[index])
+            sections[0].cells.append(SelectableCellWithLeftImageField(tag: index, model: model))
         }
     }
 
