@@ -1,5 +1,5 @@
 //
-//  BaseViewModel.swift
+//  HomeViewModel.swift
 //  Magnar
 //
 //  Created by Michael Amiro on 03/11/2022.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-class BaseViewModel: TableBackedViewModel {
+class HomeViewModel: TableBackedViewModel {
     var goToHousesView: () -> Void = { }
     var goToCharactersView: () -> Void = { }
     var goToBooksView: () -> Void = { }

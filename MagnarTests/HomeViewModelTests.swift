@@ -8,7 +8,7 @@
 import XCTest
 @testable import Magnar
 
-class BaseViewModelMock: BaseViewModel {
+class BaseViewModelMock: HomeViewModel {
     var isGoToHousesViewCalled = false
     var isGoToCharacterViewCalled = false
     var isGoToBooksViewCalled = false

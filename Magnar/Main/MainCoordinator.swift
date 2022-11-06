@@ -17,9 +17,9 @@ class MainCoordinator: NSObject, UINavigationControllerDelegate, Coordinator {
 
     func start() {
         navigationController.delegate = self
-        let viewController = BaseViewController()
+        let viewController = HomeViewController()
         viewController.coordinator = self
-        let model = BaseViewModel()
+        let model = HomeViewModel()
         model.goToCharactersView = goToCharactersView
         model.goToHousesView = goToHousesView
         model.goToBooksView = goToBooksView
