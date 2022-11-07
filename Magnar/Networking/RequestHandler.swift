@@ -28,12 +28,10 @@ class RequestHandler: RequestHandlerDelegate {
                 completion(.failure(.invalidResponseStatusCode))
                 return
             }
-            debugPrint(response.statusCode)
             guard let data = data else {
                 completion(.failure(.emptyData))
                 return
             }
-            debugPrint(data.prettyPrint!)
             completion(.success(data))
         }.resume()
     }

@@ -14,7 +14,8 @@ class TableBackedViewModel {
     var redrawSection: (Int) -> Void = { _ in }
     var redrawRow: (IndexPath) -> Void = { _ in }
     var modelDidUpdate: () -> Void = {}
-
+    var presentAlert: (String, String) -> Void = { _, _ in }
+    
     func item(at indexPath: IndexPath) -> TableRow? {
         guard indexPath.section < sections.count,
               indexPath.row < sections[indexPath.section].cells.count else {

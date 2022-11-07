@@ -25,7 +25,7 @@ class BooksViewModel: TableBackedViewModel {
         bookService.getBooks { [weak self] result in
             switch result {
             case .failure(let error):
-                print(error)
+                self?.presentAlert("Something went wrong.", error.localizedDescription)
             case .success(let books):
                 self?.state.books = books
                 self?.makeBookCells()

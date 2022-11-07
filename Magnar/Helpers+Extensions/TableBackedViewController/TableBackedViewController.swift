@@ -21,6 +21,12 @@ class TableBackedViewController: UIViewController {
             }
             viewModel.redrawRow = { [weak self] in self?.redrawRow(indexPath: $0) }
             viewModel.redrawSection = { [weak self] in self?.redrawSection(section: $0) }
+            viewModel.presentAlert = { [weak self]  title, message in
+                DispatchQueue.main.async {
+                    self?.presentAlert(title: title, message: message)
+                }
+
+            }
         }
     }
 
@@ -46,6 +52,13 @@ class TableBackedViewController: UIViewController {
         navigationItem.largeTitleDisplayMode = .never
         navigationController?.navigationBar.tintColor = UIColor(named: "labelColor")
 
+    }
+
+    func presentAlert(title: String, message: String, preferredStyle: UIAlertController.Style = .alert) {
+        let alert = UIAlertController(title: title, message: message, preferredStyle: preferredStyle)
+        let defaultAction = UIAlertAction(title: "Dismiss", style: .default)
+        alert.addAction(defaultAction)
+        self.present(alert, animated: true)
     }
 
     private func configureTableView() {
