@@ -23,7 +23,7 @@ class HouseService: HouseServiceDelegate {
         if networkService.shouldMock {
             networkService.fetch(resource: "houses", type: [House].self, completion: completion)
         } else  {
-            networkService.fetch(url: "https://anapioficeandfire.com/api/hous", type: [House].self, completion: completion)
+            networkService.fetch(url: "https://anapioficeandfire.com/api/houses", type: [House].self, completion: completion)
         }
     }
 

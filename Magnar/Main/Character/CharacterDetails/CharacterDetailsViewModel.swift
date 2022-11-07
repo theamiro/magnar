@@ -19,83 +19,89 @@ class CharacterDetailsViewModel: TableBackedViewModel {
         self.bookService = bookService
         super.init()
         self.title = state.character.name == "" ? state.character.aliases.first ?? "No Name" : state.character.name
-        
-        sections.append(makeGenderSection())
-        sections.append(makeTitlesSection())
-        sections.append(makeAliasesSection())
+
+
+        sections = [
+            TableSection(id: Tag.Section.gender, title: "Gender", cells:[]),
+            TableSection(id: Tag.Section.born, title: "Born", cells:[]),
+            TableSection(id: Tag.Section.culture, title: "Culture", cells:[]),
+            TableSection(id: Tag.Section.titles, title: "Titles", cells:[]),
+            TableSection(id: Tag.Section.aliases, title: "Aliases", cells:[]),
+            TableSection(id: Tag.Section.allegiances, title: "Allegiances", cells:[]),
+            TableSection(id: Tag.Section.books, title: "Books", cells:[]),
+            TableSection(id: Tag.Section.povBooks, title: "POV Books", cells:[]),
+            TableSection(id: Tag.Section.tvSeries, title: "TV Series", cells:[]),
+        ]
+
+        makeSimpleCell(using: state.character.gender, at: Tag.Section.gender)
+        makeSimpleCell(using: state.character.born, at: Tag.Section.born)
+        makeSimpleCell(using: state.character.culture, at: Tag.Section.culture)
+        makeSequenceCells(using: state.character.titles, at: Tag.Section.titles)
+        makeSequenceCells(using: state.character.aliases, at: Tag.Section.aliases)
         if state.character.allegiances.count > 0 {
-            sections.append(makeAllegiancesSection())
+            makeAllegiancesSection()
         }
-        sections.append(makeBooksSection())
-        if state.character.povBooks.count > 0 {
-            sections.append(makePOVBooksSection())
-        }
-        sections.append(makeTVSeriesSection())
+        makeBooksSection()
+        makePOVBooksSection()
+        makeSequenceCells(using: state.character.tvSeries, at: Tag.Section.tvSeries)
     }
 
-    func makeGenderSection() -> TableSection {
-        let model = SimpleTextFieldModel(text: state.character.gender)
-        return TableSection(id: Tag.Section.gender, title: "Gender", cells: [SimpleTextField(tag: 0, model: model)])
+    func makeSimpleCell(using text: String, at section: Int) {
+        let model = SimpleTextFieldModel(text: text == "" ? "No value" : text)
+        self.sections[section].cells.append(SimpleTextField(tag: 0, model: model))
     }
 
-    func makeTitlesSection() -> TableSection {
-        let cells = state.character.titles.enumerated().map { item -> SimpleTextField in
-            let index = item.offset
-            let title = item.element
-            let model = SimpleTextFieldModel(text: title == "" ? "None" : title)
-            return SimpleTextField(tag: index, model: model)
+    func makeSequenceCells(using array: [String], at section: Int) {
+        for index in array.indices {
+            let value = array[index]
+            let model = SimpleTextFieldModel(text: value == "" ? "No value" : value)
+            sections[section].cells.append(SimpleTextField(tag: index, model: model))
         }
-        return TableSection(id: Tag.Section.titles, title: "Titles", cells: cells)
     }
 
-    func makeAliasesSection() -> TableSection {
-        let cells = state.character.aliases.enumerated().map { item -> SimpleTextField in
-            let index = item.offset
-            let alias = item.element
-            let model = SimpleTextFieldModel(text: alias)
-            return SimpleTextField(tag: index, model: model)
+    func makeAllegiancesSection() {
+        for index in state.character.books.indices {
+            let house = state.character.allegiances[index]
+            houseService.getHouseByURL(url: house) { [weak self] result in
+                switch result {
+                case .failure(let error):
+                    self?.presentAlert("Error", error.localizedDescription)
+                case .success(let house):
+                    let model = SimpleTextFieldModel(text: house.name)
+                    self?.sections[Tag.Section.allegiances].cells.append(SimpleTextField(tag: index, model: model))
+                }
+            }
         }
-        return TableSection(id: Tag.Section.aliases, title: "Aliases", cells: cells)
     }
 
-    func makeAllegiancesSection() -> TableSection {
-        let cells = state.character.allegiances.enumerated().map { item -> SimpleTextField in
-            let index = item.offset
-            let allegiance = item.element
-            let model = SimpleTextFieldModel(text: allegiance)
-            return SimpleTextField(tag: index, model: model)
+    func makeBooksSection() {
+        for index in state.character.books.indices {
+            let book = state.character.books[index]
+            bookService.getBookByURL(url: book) { [weak self] result in
+                switch result {
+                case .failure(let error):
+                    self?.presentAlert("Error", error.localizedDescription)
+                case .success(let book):
+                    let model = SimpleTextFieldModel(text: book.name)
+                    self?.sections[Tag.Section.books].cells.append(SimpleTextField(tag: index, model: model))
+                }
+            }
         }
-        return TableSection(id: Tag.Section.allegiances, title: "Allegiances", cells: cells)
     }
 
-    func makeBooksSection() -> TableSection {
-        let cells = state.character.books.enumerated().map { item -> SimpleTextField in
-            let index = item.offset
-            let book = item.element
-            let model = SimpleTextFieldModel(text: book)
-            return SimpleTextField(tag: index, model: model)
+    func makePOVBooksSection() {
+        for index in state.character.povBooks.indices {
+            let book = state.character.povBooks[index]
+            bookService.getBookByURL(url: book) { [weak self] result in
+                switch result {
+                case .failure(let error):
+                    self?.presentAlert("Error", error.localizedDescription)
+                case .success(let book):
+                    let model = SimpleTextFieldModel(text: book.name)
+                    self?.sections[Tag.Section.povBooks].cells.append(SimpleTextField(tag: index, model: model))
+                }
+            }
         }
-        return TableSection(id: Tag.Section.books, title: "Books", cells: cells)
-    }
-
-    func makePOVBooksSection() -> TableSection {
-        let cells = state.character.povBooks.enumerated().map { item -> SimpleTextField in
-            let index = item.offset
-            let book = item.element
-            let model = SimpleTextFieldModel(text: book)
-            return SimpleTextField(tag: index, model: model)
-        }
-        return TableSection(id: Tag.Section.povBooks, title: "POV Books", cells: cells)
-    }
-
-    func makeTVSeriesSection() -> TableSection {
-        let cells = state.character.tvSeries.enumerated().map { item -> SimpleTextField in
-            let index = item.offset
-            let series = item.element
-            let model = SimpleTextFieldModel(text: series == "" ? "No Series Title" : series)
-            return SimpleTextField(tag: index, model: model)
-        }
-        return TableSection(id: Tag.Section.tvSeries, title: "TV Series", cells: cells)
     }
 
     struct State {
@@ -105,12 +111,14 @@ class CharacterDetailsViewModel: TableBackedViewModel {
     enum Tag {
         enum Section {
             static let gender = 0
-            static let titles = 1
-            static let aliases = 2
-            static let allegiances = 3
-            static let books = 4
-            static let povBooks = 5
-            static let tvSeries = 6
+            static let born = 1
+            static let culture = 2
+            static let titles = 3
+            static let aliases = 4
+            static let allegiances = 5
+            static let books = 6
+            static let povBooks = 7
+            static let tvSeries = 8
         }
     }
 }
