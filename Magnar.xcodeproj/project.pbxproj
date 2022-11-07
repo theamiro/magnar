@@ -33,6 +33,9 @@
 		C91AE57F2919395C002B7A2E /* characters.json in Resources */ = {isa = PBXBuildFile; fileRef = C91AE54A2918587A002B7A2E /* characters.json */; };
 		C91AE5802919395C002B7A2E /* houses.json in Resources */ = {isa = PBXBuildFile; fileRef = C91AE54F291858FC002B7A2E /* houses.json */; };
 		C91AE582291945AC002B7A2E /* MainCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91AE581291945AC002B7A2E /* MainCoordinatorTests.swift */; };
+		C91AE58729197457002B7A2E /* Simulator Screen Shot - iPhone 14 - 2022-11-07 at 20.12.15.png in Resources */ = {isa = PBXBuildFile; fileRef = C91AE58429197456002B7A2E /* Simulator Screen Shot - iPhone 14 - 2022-11-07 at 20.12.15.png */; };
+		C91AE58829197457002B7A2E /* Simulator Screen Shot - iPhone 14 - 2022-11-07 at 20.12.11.png in Resources */ = {isa = PBXBuildFile; fileRef = C91AE58529197456002B7A2E /* Simulator Screen Shot - iPhone 14 - 2022-11-07 at 20.12.11.png */; };
+		C91AE58929197457002B7A2E /* Simulator Screen Shot - iPhone 14 - 2022-11-07 at 20.13.27.png in Resources */ = {isa = PBXBuildFile; fileRef = C91AE58629197456002B7A2E /* Simulator Screen Shot - iPhone 14 - 2022-11-07 at 20.13.27.png */; };
 		C94DCF452916495E00F6D1BD /* CharacterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94DCF442916495E00F6D1BD /* CharacterService.swift */; };
 		C94DCF47291649C000F6D1BD /* GOTCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94DCF46291649C000F6D1BD /* GOTCharacter.swift */; };
 		C94DCF4A29164AD600F6D1BD /* CharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94DCF4929164AD600F6D1BD /* CharacterViewModel.swift */; };
@@ -118,6 +121,9 @@
 		C91AE55129185EEA002B7A2E /* BooksViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewModelTests.swift; sourceTree = "<group>"; };
 		C91AE55329185FE5002B7A2E /* HousesViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousesViewModelTests.swift; sourceTree = "<group>"; };
 		C91AE581291945AC002B7A2E /* MainCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinatorTests.swift; sourceTree = "<group>"; };
+		C91AE58429197456002B7A2E /* Simulator Screen Shot - iPhone 14 - 2022-11-07 at 20.12.15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 14 - 2022-11-07 at 20.12.15.png"; sourceTree = "<group>"; };
+		C91AE58529197456002B7A2E /* Simulator Screen Shot - iPhone 14 - 2022-11-07 at 20.12.11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 14 - 2022-11-07 at 20.12.11.png"; sourceTree = "<group>"; };
+		C91AE58629197456002B7A2E /* Simulator Screen Shot - iPhone 14 - 2022-11-07 at 20.13.27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 14 - 2022-11-07 at 20.13.27.png"; sourceTree = "<group>"; };
 		C94DCF442916495E00F6D1BD /* CharacterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterService.swift; sourceTree = "<group>"; };
 		C94DCF46291649C000F6D1BD /* GOTCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOTCharacter.swift; sourceTree = "<group>"; };
 		C94DCF4929164AD600F6D1BD /* CharacterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewModel.swift; sourceTree = "<group>"; };
@@ -296,6 +302,16 @@
 			path = SupportFiles;
 			sourceTree = "<group>";
 		};
+		C91AE583291973D3002B7A2E /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				C91AE58529197456002B7A2E /* Simulator Screen Shot - iPhone 14 - 2022-11-07 at 20.12.11.png */,
+				C91AE58429197456002B7A2E /* Simulator Screen Shot - iPhone 14 - 2022-11-07 at 20.12.15.png */,
+				C91AE58629197456002B7A2E /* Simulator Screen Shot - iPhone 14 - 2022-11-07 at 20.13.27.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		C94DCF432916494700F6D1BD /* CharacterService */ = {
 			isa = PBXGroup;
 			children = (
@@ -370,6 +386,7 @@
 			isa = PBXGroup;
 			children = (
 				C9BB50C42914109300EE852A /* Readme.md */,
+				C91AE583291973D3002B7A2E /* Screenshots */,
 				C9BB509329140E1C00EE852A /* Magnar */,
 				C9BB50AA29140E1F00EE852A /* MagnarTests */,
 				C9BB50B429140E1F00EE852A /* MagnarUITests */,
@@ -584,8 +601,11 @@
 				C91AE57F2919395C002B7A2E /* characters.json in Resources */,
 				C9BB50A129140E1F00EE852A /* LaunchScreen.storyboard in Resources */,
 				C9BB509E29140E1F00EE852A /* Assets.xcassets in Resources */,
+				C91AE58829197457002B7A2E /* Simulator Screen Shot - iPhone 14 - 2022-11-07 at 20.12.11.png in Resources */,
 				C91AE5802919395C002B7A2E /* houses.json in Resources */,
+				C91AE58929197457002B7A2E /* Simulator Screen Shot - iPhone 14 - 2022-11-07 at 20.13.27.png in Resources */,
 				C9E85B5429164FDC008FBF0F /* SelectableCellWithLeftImage.xib in Resources */,
+				C91AE58729197457002B7A2E /* Simulator Screen Shot - iPhone 14 - 2022-11-07 at 20.12.15.png in Resources */,
 				C9ADE34329145439002284BA /* HouseTableViewCell.xib in Resources */,
 				C9BB50C52914109300EE852A /* Readme.md in Resources */,
 			);
