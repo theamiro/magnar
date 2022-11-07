@@ -9,6 +9,7 @@ import Foundation
 
 protocol RequestHandlerDelegate {
     func fetch(url: String, completion: @escaping(Result<Data, NetworkError>) -> Void)
+    func fetch(resource: String, `extension`: String, completion: @escaping(Result<Data, NetworkError>) -> Void)
 }
 
 class RequestHandler: RequestHandlerDelegate {
@@ -35,6 +36,17 @@ class RequestHandler: RequestHandlerDelegate {
             debugPrint(data.prettyPrint!)
             completion(.success(data))
         }.resume()
+    }
+    func fetch(resource: String, `extension`: String, completion: @escaping(Result<Data,NetworkError>) -> Void) {
+        guard let url = Bundle.main.url(forResource: resource, withExtension: `extension`) else {
+            completion(.failure(.custom("Error fetching resource from URL.")))
+            return
+        }
+        guard let data = try? Data(contentsOf: url) else {
+            completion(.failure(.custom("Error reading contents of file.")))
+            return
+        }
+        completion(.success(data))
     }
 }
 

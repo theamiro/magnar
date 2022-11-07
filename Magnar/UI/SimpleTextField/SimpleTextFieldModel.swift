@@ -8,5 +8,5 @@
 import Foundation
 
 struct SimpleTextFieldModel {
-    let text: String
+    var text: String
 }

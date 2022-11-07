@@ -10,11 +10,14 @@ import UIKit
 class HouseViewModel: TableBackedViewModel {
     private var state = State()
     private let houseService: HouseServiceDelegate
+    private let characterService: GOTCharacterServiceDelegate
 
     var goToHouseDetailView: (House) -> Void = { _ in }
 
-    init(houseService: HouseServiceDelegate = HouseService(networkService: NetworkService())) {
+    init(houseService: HouseServiceDelegate = HouseService(networkService: NetworkService()),
+         characterService: GOTCharacterServiceDelegate = GOTCharacterService(networkService: NetworkService())) {
         self.houseService = houseService
+        self.characterService = characterService
         super.init()
         title = "Houses"
 
@@ -30,16 +33,15 @@ class HouseViewModel: TableBackedViewModel {
                 print(error)
             case .success(let houses):
                 self?.handleGetHousesSuccess(houses)
-                print(houses)
             }
         }
     }
 
-    func handleGetHousesSuccess(_ houses: [House]) {
+    private func handleGetHousesSuccess(_ houses: [House]) {
         state.houses = houses
         for index in state.houses.indices {
             let house = state.houses[index]
-            let model = HouseFieldModel(name: house.name, region: house.region, numberOfMembers: house.swornMembers.count, overlord: house.overlord)
+            let model = HouseFieldModel(title: house.name, subtitle: house.region, numberOfMembers: house.swornMembers.count, tertiaryTitle: house.words)
             sections[0].cells.append(HouseField(tag: index, model: model))
         }
         modelDidUpdate()

@@ -32,4 +32,12 @@ class SelectableCellWithLeftImage: UITableViewCell {
         secondaryLabel.text = model.subtitle
         quaternaryLabel.text = model.quaternaryTitle
     }
+
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        primaryLabel.text = nil
+        tertiaryLabel.text = nil
+        secondaryLabel.text = nil
+        quaternaryLabel.text = nil
+    }
 }

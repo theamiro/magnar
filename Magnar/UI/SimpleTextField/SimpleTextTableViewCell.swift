@@ -26,4 +26,9 @@ class SimpleTextTableViewCell: UITableViewCell {
 
         label.text = model.text
     }
+
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        label.text = nil
+    }
 }
