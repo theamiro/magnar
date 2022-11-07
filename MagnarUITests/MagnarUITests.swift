@@ -21,12 +21,6 @@ final class MagnarUITests: XCTestCase {
     func testHouseOfAppletonNavigation() throws {
         app = XCUIApplication()
         app.launch()
-        let tablesQuery = XCUIApplication().tables
-        XCTAssertTrue(tablesQuery.element.exists)
-        tablesQuery.staticTexts["Houses"].tap()
-        tablesQuery.staticTexts["House Appleton of Appleton"].swipeUp()
-        let theReachLabel = tablesQuery.staticTexts["The Reach"]
-        XCTAssertTrue(theReachLabel.exists)
     }
 
     func testLaunchPerformance() throws {
