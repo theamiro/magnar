@@ -25,7 +25,7 @@ class CharacterViewModel: TableBackedViewModel {
         characterService.getCharacters { [weak self] result in
             switch result {
             case .failure(let error):
-                print(error)
+                self?.presentAlert("Something went wrong.", error.localizedDescription)
             case .success(let characters):
                 self?.state.characters = characters
                 self?.makeCharacterCells()

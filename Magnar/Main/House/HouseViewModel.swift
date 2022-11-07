@@ -30,7 +30,7 @@ class HouseViewModel: TableBackedViewModel {
         houseService.getHouses { [weak self] result in
             switch result {
             case .failure(let error):
-                print(error)
+                self?.presentAlert("Something went wrong.", error.localizedDescription)
             case .success(let houses):
                 self?.handleGetHousesSuccess(houses)
             }

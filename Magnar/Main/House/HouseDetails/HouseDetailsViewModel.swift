@@ -63,7 +63,7 @@ class HouseDetailsViewModel: TableBackedViewModel {
             characterService.getCharacterByURL(url: state.house.swornMembers[memberIndex]) { [weak self] result in
                 switch result {
                 case .failure(let error):
-                    debugPrint(error)
+                    self?.presentAlert("Something went wrong.", error.localizedDescription)
                     break
                 case .success(let character):
                     self?.state.house.members?.append(character)
