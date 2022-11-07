@@ -1,0 +1,1017 @@
+
+Showing Recent Messages
+Launch actions
+
+Launch MagnarUITests
+
+Platform: iOS Simulator
+
+Operating System Version: 16.0 (20A360)
+
+Model: iPhone 14 (iPhone14,7)
+
+Install Actions
+Installing on iPhone 14
+
+Successfully installed
+
+Environment variables:
+__XPC_DYLD_FRAMEWORK_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+XCTestSessionIdentifier=9EE16678-FDEE-4E8C-85C3-A46950DBD03E
+SWIFTUI_VIEW_DEBUG=287
+NSApplicationQuitWithoutSuddenTermination=YES
+RUN_DESTINATION_DEVICE_NAME=Clone 1 of iPhone 14
+CA_ASSERT_MAIN_THREAD_TRANSACTIONS=0
+LLVM_PROFILE_FILE=/var/folders/y3/6jx2szsn4wn0bkd0m8v331gh0000gn/T/com.michaelamiro.MagnarUITests.xctrunner/DD663526-B563-48E8-ADD6-676C7C6BBEF3-1306-000038FFDE918CF1/FC3ACE14-CA8A-4338-B36D-3A51D133A301-%p%c.profraw
+__XPC_DYLD_LIBRARY_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+RUN_DESTINATION_DEVICE_UDID=AD3D6D80-D672-4C73-A4B6-083AC876125E
+__XCODE_BUILT_PRODUCTS_DIR_PATHS=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+CA_DEBUG_TRANSACTIONS=0
+DYLD_FRAMEWORK_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks
+DYLD_INSERT_LIBRARIES=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib
+XCTestConfigurationFilePath=
+DYLD_LIBRARY_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib
+SQLITE_ENABLE_THREAD_ASSERTIONS=1
+NSUnbufferedIO=YES
+RUN_DESTINATION_DEVICE_PLATFORM_IDENTIFIER=com.apple.platform.iphonesimulator
+OS_ACTIVITY_DT_MODE=YES
+XCTestBundlePath=PlugIns/MagnarUITests.xctest
+__XPC_LLVM_PROFILE_FILE=/var/folders/y3/6jx2szsn4wn0bkd0m8v331gh0000gn/T/com.michaelamiro.MagnarUITests.xctrunner/DD663526-B563-48E8-ADD6-676C7C6BBEF3-1306-000038FFDE918CF1/FC3ACE14-CA8A-4338-B36D-3A51D133A301-%p%c.profraw
+
+Launching debugserver and waiting for com.michaelamiro.MagnarUITests.xctrunner to attach
+
+Successfully launched MagnarUITests
+
+View debugging: enabled
+Insert view debugging dylib on launch: disabled
+Queue debugging: enabled
+Memory graph on resource exception: disabled
+Address sanitizer: disabled
+Thread sanitizer: disabled
+
+Using LLDBRPC, LLDB framework is from /Applications/Xcode.app/Contents/SharedFrameworks
+
+Attached to process with pid 84976
+
+
+Launch MagnarTests
+
+Platform: iOS Simulator
+
+Operating System Version: 16.0 (20A360)
+
+Model: iPhone 14 (iPhone14,7)
+
+Install Actions
+Installing on iPhone 14
+
+Successfully installed
+
+Environment variables:
+__XPC_DYLD_FRAMEWORK_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+XCTestSessionIdentifier=426499B9-8281-463F-9CEC-32984608F5C0
+SWIFTUI_VIEW_DEBUG=287
+NSApplicationQuitWithoutSuddenTermination=YES
+RUN_DESTINATION_DEVICE_NAME=Clone 2 of iPhone 14
+CA_ASSERT_MAIN_THREAD_TRANSACTIONS=0
+LLVM_PROFILE_FILE=/var/folders/y3/6jx2szsn4wn0bkd0m8v331gh0000gn/T/com.michaelamiro.Magnar/5A546D2B-3AD9-4E80-9B79-36288AC81E06-1306-000038FFE15D3A94/2C039EAF-9F4A-4009-ACCE-B024B86CCDFE-%p%c.profraw
+__XPC_DYLD_LIBRARY_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+RUN_DESTINATION_DEVICE_UDID=8C6CFF19-ED57-41DC-9D2B-DAFC82CF56F8
+__XCODE_BUILT_PRODUCTS_DIR_PATHS=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+CA_DEBUG_TRANSACTIONS=0
+DYLD_FRAMEWORK_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks
+XCInjectBundleInto=unused
+DYLD_INSERT_LIBRARIES=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator/Magnar.app/Frameworks/libXCTestBundleInject.dylib:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib
+XCTestConfigurationFilePath=
+DYLD_LIBRARY_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib
+SQLITE_ENABLE_THREAD_ASSERTIONS=1
+NSUnbufferedIO=YES
+RUN_DESTINATION_DEVICE_PLATFORM_IDENTIFIER=com.apple.platform.iphonesimulator
+OS_ACTIVITY_DT_MODE=YES
+XCTestBundlePath=PlugIns/MagnarTests.xctest
+__XPC_LLVM_PROFILE_FILE=/var/folders/y3/6jx2szsn4wn0bkd0m8v331gh0000gn/T/com.michaelamiro.Magnar/5A546D2B-3AD9-4E80-9B79-36288AC81E06-1306-000038FFE15D3A94/2C039EAF-9F4A-4009-ACCE-B024B86CCDFE-%p%c.profraw
+
+Launching debugserver and waiting for com.michaelamiro.Magnar to attach
+
+Successfully launched MagnarTests
+
+View debugging: enabled
+Insert view debugging dylib on launch: disabled
+Queue debugging: enabled
+Memory graph on resource exception: disabled
+Address sanitizer: disabled
+Thread sanitizer: disabled
+
+Using LLDBRPC, LLDB framework is from /Applications/Xcode.app/Contents/SharedFrameworks
+
+Attached to process with pid 84974
+
+
+Launch Magnar
+
+Platform: iOS Simulator
+
+Operating System Version: 16.0 (20A360)
+
+Model: iPhone 14 (iPhone14,7)
+
+Install Actions
+Installing on iPhone 14
+
+Successfully installed
+
+Environment variables:
+LLVM_PROFILE_FILE=/var/folders/y3/6jx2szsn4wn0bkd0m8v331gh0000gn/T/com.michaelamiro.Magnar/C2EA47F6-AC04-45FF-9E81-603001212283-1306-00003900EC69C498/3DFB871D-DED7-4B2C-B236-DE389ED42337-%p%c.profraw
+__XPC_DYLD_LIBRARY_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+__XPC_DYLD_FRAMEWORK_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+OS_ACTIVITY_MODE=info
+__XPC_LLVM_PROFILE_FILE=/var/folders/y3/6jx2szsn4wn0bkd0m8v331gh0000gn/T/com.michaelamiro.Magnar/C2EA47F6-AC04-45FF-9E81-603001212283-1306-00003900EC69C498/3DFB871D-DED7-4B2C-B236-DE389ED42337-%p%c.profraw
+NSApplicationQuitWithoutSuddenTermination=YES
+SWIFTUI_VIEW_DEBUG=287
+NSUnbufferedIO=YES
+CA_ASSERT_MAIN_THREAD_TRANSACTIONS=0
+DYLD_LIBRARY_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+__XCODE_BUILT_PRODUCTS_DIR_PATHS=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+DYLD_INSERT_LIBRARIES=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib
+CA_DEBUG_TRANSACTIONS=0
+DYLD_FRAMEWORK_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+
+Launching debugserver and waiting for com.michaelamiro.Magnar to attach
+
+Successfully launched Magnar
+
+View debugging: enabled
+Insert view debugging dylib on launch: disabled
+Queue debugging: enabled
+Memory graph on resource exception: disabled
+Address sanitizer: disabled
+Thread sanitizer: disabled
+
+Using LLDBRPC, LLDB framework is from /Applications/Xcode.app/Contents/SharedFrameworks
+
+Attached to process with pid 84989
+
+
+Launch MagnarUITests
+
+Platform: iOS Simulator
+
+Operating System Version: 16.0 (20A360)
+
+Model: iPhone 14 (iPhone14,7)
+
+Install Actions
+Installing on iPhone 14
+
+Successfully installed
+
+Environment variables:
+__XPC_DYLD_FRAMEWORK_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+XCTestSessionIdentifier=2A70BAA7-AF07-42A9-9123-5F2D6EA31F43
+SWIFTUI_VIEW_DEBUG=287
+NSApplicationQuitWithoutSuddenTermination=YES
+RUN_DESTINATION_DEVICE_NAME=Clone 3 of iPhone 14
+CA_ASSERT_MAIN_THREAD_TRANSACTIONS=0
+LLVM_PROFILE_FILE=/var/folders/y3/6jx2szsn4wn0bkd0m8v331gh0000gn/T/com.michaelamiro.MagnarUITests.xctrunner/1F9B960D-A45C-41B8-9872-6134A79C6C9C-1306-0000390159A5DF9D/1679DDE5-7DD6-4F17-9CFB-63DF20FB3BA3-%p%c.profraw
+__XPC_DYLD_LIBRARY_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+RUN_DESTINATION_DEVICE_UDID=A1EAD799-D329-45E0-8DA2-5099CE92FC29
+__XCODE_BUILT_PRODUCTS_DIR_PATHS=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+CA_DEBUG_TRANSACTIONS=0
+DYLD_FRAMEWORK_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks
+DYLD_INSERT_LIBRARIES=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib
+XCTestConfigurationFilePath=
+DYLD_LIBRARY_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib
+SQLITE_ENABLE_THREAD_ASSERTIONS=1
+NSUnbufferedIO=YES
+RUN_DESTINATION_DEVICE_PLATFORM_IDENTIFIER=com.apple.platform.iphonesimulator
+OS_ACTIVITY_DT_MODE=YES
+XCTestBundlePath=PlugIns/MagnarUITests.xctest
+__XPC_LLVM_PROFILE_FILE=/var/folders/y3/6jx2szsn4wn0bkd0m8v331gh0000gn/T/com.michaelamiro.MagnarUITests.xctrunner/1F9B960D-A45C-41B8-9872-6134A79C6C9C-1306-0000390159A5DF9D/1679DDE5-7DD6-4F17-9CFB-63DF20FB3BA3-%p%c.profraw
+
+Launching debugserver and waiting for com.michaelamiro.MagnarUITests.xctrunner to attach
+
+Successfully launched MagnarUITests
+
+View debugging: enabled
+Insert view debugging dylib on launch: disabled
+Queue debugging: enabled
+Memory graph on resource exception: disabled
+Address sanitizer: disabled
+Thread sanitizer: disabled
+
+Using LLDBRPC, LLDB framework is from /Applications/Xcode.app/Contents/SharedFrameworks
+
+Attached to process with pid 85009
+
+
+Launch Magnar
+
+Platform: iOS Simulator
+
+Operating System Version: 16.0 (20A360)
+
+Model: iPhone 14 (iPhone14,7)
+
+Install Actions
+Installing on iPhone 14
+
+Successfully installed
+
+Environment variables:
+LLVM_PROFILE_FILE=/var/folders/y3/6jx2szsn4wn0bkd0m8v331gh0000gn/T/com.michaelamiro.Magnar/0DCCB7C1-33E1-4A33-A2A9-EE7FC8859B63-1306-000039027E6C5EE6/AC7021BF-AFD5-4692-A910-75142DF83015-%p%c.profraw
+__XPC_DYLD_LIBRARY_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+__XPC_DYLD_FRAMEWORK_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+OS_ACTIVITY_MODE=info
+__XPC_LLVM_PROFILE_FILE=/var/folders/y3/6jx2szsn4wn0bkd0m8v331gh0000gn/T/com.michaelamiro.Magnar/0DCCB7C1-33E1-4A33-A2A9-EE7FC8859B63-1306-000039027E6C5EE6/AC7021BF-AFD5-4692-A910-75142DF83015-%p%c.profraw
+NSApplicationQuitWithoutSuddenTermination=YES
+SWIFTUI_VIEW_DEBUG=287
+NSUnbufferedIO=YES
+CA_ASSERT_MAIN_THREAD_TRANSACTIONS=0
+DYLD_LIBRARY_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+__XCODE_BUILT_PRODUCTS_DIR_PATHS=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+DYLD_INSERT_LIBRARIES=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib
+CA_DEBUG_TRANSACTIONS=0
+DYLD_FRAMEWORK_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+
+Launching debugserver and waiting for com.michaelamiro.Magnar to attach
+
+Successfully launched Magnar
+
+View debugging: enabled
+Insert view debugging dylib on launch: disabled
+Queue debugging: enabled
+Memory graph on resource exception: disabled
+Address sanitizer: disabled
+Thread sanitizer: disabled
+
+Using LLDBRPC, LLDB framework is from /Applications/Xcode.app/Contents/SharedFrameworks
+
+Attached to process with pid 85022
+
+
+Launch Magnar
+
+Platform: iOS Simulator
+
+Operating System Version: 16.0 (20A360)
+
+Model: iPhone 14 (iPhone14,7)
+
+Install Actions
+Installing on iPhone 14
+
+Successfully installed
+
+Environment variables:
+LLVM_PROFILE_FILE=/var/folders/y3/6jx2szsn4wn0bkd0m8v331gh0000gn/T/com.michaelamiro.Magnar/11665FF6-A49B-40BF-867F-97AF38DD3A06-1306-0000390324A14887/063656DF-8CEE-4681-8733-5DB51E533DE1-%p%c.profraw
+__XPC_DYLD_LIBRARY_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+__XPC_DYLD_FRAMEWORK_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+OS_ACTIVITY_MODE=info
+__XPC_LLVM_PROFILE_FILE=/var/folders/y3/6jx2szsn4wn0bkd0m8v331gh0000gn/T/com.michaelamiro.Magnar/11665FF6-A49B-40BF-867F-97AF38DD3A06-1306-0000390324A14887/063656DF-8CEE-4681-8733-5DB51E533DE1-%p%c.profraw
+NSApplicationQuitWithoutSuddenTermination=YES
+SWIFTUI_VIEW_DEBUG=287
+NSUnbufferedIO=YES
+CA_ASSERT_MAIN_THREAD_TRANSACTIONS=0
+DYLD_LIBRARY_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+__XCODE_BUILT_PRODUCTS_DIR_PATHS=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+DYLD_INSERT_LIBRARIES=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib
+CA_DEBUG_TRANSACTIONS=0
+DYLD_FRAMEWORK_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+
+Launching debugserver and waiting for com.michaelamiro.Magnar to attach
+
+Successfully launched Magnar
+
+View debugging: enabled
+Insert view debugging dylib on launch: disabled
+Queue debugging: enabled
+Memory graph on resource exception: disabled
+Address sanitizer: disabled
+Thread sanitizer: disabled
+
+Using LLDBRPC, LLDB framework is from /Applications/Xcode.app/Contents/SharedFrameworks
+
+Attached to process with pid 85038
+
+
+Launch Magnar
+
+Platform: iOS Simulator
+
+Operating System Version: 16.0 (20A360)
+
+Model: iPhone 14 (iPhone14,7)
+
+Install Actions
+Installing on iPhone 14
+
+Successfully installed
+
+Environment variables:
+LLVM_PROFILE_FILE=/var/folders/y3/6jx2szsn4wn0bkd0m8v331gh0000gn/T/com.michaelamiro.Magnar/78F8CDA9-748A-4E6C-8BA4-85B1B989DBFD-1306-00003904B1BAF819/95402B7E-5D14-46F6-8BED-7959C0AFEDF2-%p%c.profraw
+__XPC_DYLD_LIBRARY_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+__XPC_DYLD_FRAMEWORK_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+OS_ACTIVITY_MODE=info
+__XPC_LLVM_PROFILE_FILE=/var/folders/y3/6jx2szsn4wn0bkd0m8v331gh0000gn/T/com.michaelamiro.Magnar/78F8CDA9-748A-4E6C-8BA4-85B1B989DBFD-1306-00003904B1BAF819/95402B7E-5D14-46F6-8BED-7959C0AFEDF2-%p%c.profraw
+NSApplicationQuitWithoutSuddenTermination=YES
+SWIFTUI_VIEW_DEBUG=287
+NSUnbufferedIO=YES
+CA_ASSERT_MAIN_THREAD_TRANSACTIONS=0
+DYLD_LIBRARY_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+__XCODE_BUILT_PRODUCTS_DIR_PATHS=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+DYLD_INSERT_LIBRARIES=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib
+CA_DEBUG_TRANSACTIONS=0
+DYLD_FRAMEWORK_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+
+Launching debugserver and waiting for com.michaelamiro.Magnar to attach
+
+Successfully launched Magnar
+
+View debugging: enabled
+Insert view debugging dylib on launch: disabled
+Queue debugging: enabled
+Memory graph on resource exception: disabled
+Address sanitizer: disabled
+Thread sanitizer: disabled
+
+Using LLDBRPC, LLDB framework is from /Applications/Xcode.app/Contents/SharedFrameworks
+
+Attached to process with pid 85054
+
+
+Launch Magnar
+
+Platform: iOS Simulator
+
+Operating System Version: 16.0 (20A360)
+
+Model: iPhone 14 (iPhone14,7)
+
+Install Actions
+Installing on iPhone 14
+
+Successfully installed
+
+Environment variables:
+LLVM_PROFILE_FILE=/var/folders/y3/6jx2szsn4wn0bkd0m8v331gh0000gn/T/com.michaelamiro.Magnar/28C44A26-D123-4902-B80A-3352C0126E4F-1306-00003905F07C5ED4/4A7497EF-BE30-4F33-B6DC-898870ABB9E5-%p%c.profraw
+__XPC_DYLD_LIBRARY_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+__XPC_DYLD_FRAMEWORK_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+OS_ACTIVITY_MODE=info
+__XPC_LLVM_PROFILE_FILE=/var/folders/y3/6jx2szsn4wn0bkd0m8v331gh0000gn/T/com.michaelamiro.Magnar/28C44A26-D123-4902-B80A-3352C0126E4F-1306-00003905F07C5ED4/4A7497EF-BE30-4F33-B6DC-898870ABB9E5-%p%c.profraw
+NSApplicationQuitWithoutSuddenTermination=YES
+SWIFTUI_VIEW_DEBUG=287
+NSUnbufferedIO=YES
+CA_ASSERT_MAIN_THREAD_TRANSACTIONS=0
+DYLD_LIBRARY_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+__XCODE_BUILT_PRODUCTS_DIR_PATHS=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+DYLD_INSERT_LIBRARIES=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib
+CA_DEBUG_TRANSACTIONS=0
+DYLD_FRAMEWORK_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+
+Launching debugserver and waiting for com.michaelamiro.Magnar to attach
+
+Successfully launched Magnar
+
+View debugging: enabled
+Insert view debugging dylib on launch: disabled
+Queue debugging: enabled
+Memory graph on resource exception: disabled
+Address sanitizer: disabled
+Thread sanitizer: disabled
+
+Using LLDBRPC, LLDB framework is from /Applications/Xcode.app/Contents/SharedFrameworks
+
+Attached to process with pid 85067
+
+
+Launch Magnar
+
+Platform: iOS Simulator
+
+Operating System Version: 16.0 (20A360)
+
+Model: iPhone 14 (iPhone14,7)
+
+Install Actions
+Installing on iPhone 14
+
+Successfully installed
+
+Environment variables:
+LLVM_PROFILE_FILE=/var/folders/y3/6jx2szsn4wn0bkd0m8v331gh0000gn/T/com.michaelamiro.Magnar/7CB25047-6DD4-40E2-A0D5-4943C753F178-1306-000039093D132419/283B2E21-6F59-4F47-84C8-7C8CD2E355EF-%p%c.profraw
+__XPC_DYLD_LIBRARY_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+__XPC_DYLD_FRAMEWORK_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+OS_ACTIVITY_MODE=info
+__XPC_LLVM_PROFILE_FILE=/var/folders/y3/6jx2szsn4wn0bkd0m8v331gh0000gn/T/com.michaelamiro.Magnar/7CB25047-6DD4-40E2-A0D5-4943C753F178-1306-000039093D132419/283B2E21-6F59-4F47-84C8-7C8CD2E355EF-%p%c.profraw
+NSApplicationQuitWithoutSuddenTermination=YES
+SWIFTUI_VIEW_DEBUG=287
+NSUnbufferedIO=YES
+CA_ASSERT_MAIN_THREAD_TRANSACTIONS=0
+DYLD_LIBRARY_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+__XCODE_BUILT_PRODUCTS_DIR_PATHS=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+DYLD_INSERT_LIBRARIES=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib
+CA_DEBUG_TRANSACTIONS=0
+DYLD_FRAMEWORK_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+
+Launching debugserver and waiting for com.michaelamiro.Magnar to attach
+
+Successfully launched Magnar
+
+View debugging: enabled
+Insert view debugging dylib on launch: disabled
+Queue debugging: enabled
+Memory graph on resource exception: disabled
+Address sanitizer: disabled
+Thread sanitizer: disabled
+
+Using LLDBRPC, LLDB framework is from /Applications/Xcode.app/Contents/SharedFrameworks
+
+Attached to process with pid 85100
+
+
+Launch Magnar
+
+Platform: iOS Simulator
+
+Operating System Version: 16.0 (20A360)
+
+Model: iPhone 14 (iPhone14,7)
+
+Install Actions
+Installing on iPhone 14
+
+Successfully installed
+
+Environment variables:
+LLVM_PROFILE_FILE=/var/folders/y3/6jx2szsn4wn0bkd0m8v331gh0000gn/T/com.michaelamiro.Magnar/0AB11DFE-DD2D-4814-8FCF-73CBB5A8244E-1306-0000390C8C1CB5B0/1E5ABEA7-A72F-4274-83DD-94951CE1BD46-%p%c.profraw
+__XPC_DYLD_LIBRARY_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+__XPC_DYLD_FRAMEWORK_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+OS_ACTIVITY_MODE=info
+__XPC_LLVM_PROFILE_FILE=/var/folders/y3/6jx2szsn4wn0bkd0m8v331gh0000gn/T/com.michaelamiro.Magnar/0AB11DFE-DD2D-4814-8FCF-73CBB5A8244E-1306-0000390C8C1CB5B0/1E5ABEA7-A72F-4274-83DD-94951CE1BD46-%p%c.profraw
+NSApplicationQuitWithoutSuddenTermination=YES
+SWIFTUI_VIEW_DEBUG=287
+NSUnbufferedIO=YES
+CA_ASSERT_MAIN_THREAD_TRANSACTIONS=0
+DYLD_LIBRARY_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+__XCODE_BUILT_PRODUCTS_DIR_PATHS=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+DYLD_INSERT_LIBRARIES=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib
+CA_DEBUG_TRANSACTIONS=0
+DYLD_FRAMEWORK_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+
+Launching debugserver and waiting for com.michaelamiro.Magnar to attach
+
+Successfully launched Magnar
+
+View debugging: enabled
+Insert view debugging dylib on launch: disabled
+Queue debugging: enabled
+Memory graph on resource exception: disabled
+Address sanitizer: disabled
+Thread sanitizer: disabled
+
+Using LLDBRPC, LLDB framework is from /Applications/Xcode.app/Contents/SharedFrameworks
+
+Attached to process with pid 85127
+
+
+Launch Magnar
+
+Platform: iOS Simulator
+
+Operating System Version: 16.0 (20A360)
+
+Model: iPhone 14 (iPhone14,7)
+
+Install Actions
+Installing on iPhone 14
+
+Successfully installed
+
+Environment variables:
+LLVM_PROFILE_FILE=/var/folders/y3/6jx2szsn4wn0bkd0m8v331gh0000gn/T/com.michaelamiro.Magnar/CB5C07DC-0F42-4892-948C-D13781F2DCE6-1306-0000390FD5C0F515/A16EA053-77ED-4F76-91BB-DB7BC377D641-%p%c.profraw
+__XPC_DYLD_LIBRARY_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+__XPC_DYLD_FRAMEWORK_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+OS_ACTIVITY_MODE=info
+__XPC_LLVM_PROFILE_FILE=/var/folders/y3/6jx2szsn4wn0bkd0m8v331gh0000gn/T/com.michaelamiro.Magnar/CB5C07DC-0F42-4892-948C-D13781F2DCE6-1306-0000390FD5C0F515/A16EA053-77ED-4F76-91BB-DB7BC377D641-%p%c.profraw
+NSApplicationQuitWithoutSuddenTermination=YES
+SWIFTUI_VIEW_DEBUG=287
+NSUnbufferedIO=YES
+CA_ASSERT_MAIN_THREAD_TRANSACTIONS=0
+DYLD_LIBRARY_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+__XCODE_BUILT_PRODUCTS_DIR_PATHS=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+DYLD_INSERT_LIBRARIES=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib
+CA_DEBUG_TRANSACTIONS=0
+DYLD_FRAMEWORK_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+
+Launching debugserver and waiting for com.michaelamiro.Magnar to attach
+
+Successfully launched Magnar
+
+View debugging: enabled
+Insert view debugging dylib on launch: disabled
+Queue debugging: enabled
+Memory graph on resource exception: disabled
+Address sanitizer: disabled
+Thread sanitizer: disabled
+
+Using LLDBRPC, LLDB framework is from /Applications/Xcode.app/Contents/SharedFrameworks
+
+Attached to process with pid 85148
+
+
+Launch Magnar
+
+Platform: iOS Simulator
+
+Operating System Version: 16.0 (20A360)
+
+Model: iPhone 14 (iPhone14,7)
+
+Install Actions
+Installing on iPhone 14
+
+Successfully installed
+
+Environment variables:
+LLVM_PROFILE_FILE=/var/folders/y3/6jx2szsn4wn0bkd0m8v331gh0000gn/T/com.michaelamiro.Magnar/B5553AC6-A0C2-4B4A-983F-D86EAB59FBE0-1306-000039132D072871/278567A8-E679-4A38-86BE-94E9326664A2-%p%c.profraw
+__XPC_DYLD_LIBRARY_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+__XPC_DYLD_FRAMEWORK_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+OS_ACTIVITY_MODE=info
+__XPC_LLVM_PROFILE_FILE=/var/folders/y3/6jx2szsn4wn0bkd0m8v331gh0000gn/T/com.michaelamiro.Magnar/B5553AC6-A0C2-4B4A-983F-D86EAB59FBE0-1306-000039132D072871/278567A8-E679-4A38-86BE-94E9326664A2-%p%c.profraw
+NSApplicationQuitWithoutSuddenTermination=YES
+SWIFTUI_VIEW_DEBUG=287
+NSUnbufferedIO=YES
+CA_ASSERT_MAIN_THREAD_TRANSACTIONS=0
+DYLD_LIBRARY_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+__XCODE_BUILT_PRODUCTS_DIR_PATHS=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+DYLD_INSERT_LIBRARIES=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib
+CA_DEBUG_TRANSACTIONS=0
+DYLD_FRAMEWORK_PATH=/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/Products/Debug-iphonesimulator
+
+Launching debugserver and waiting for com.michaelamiro.Magnar to attach
+
+Successfully launched Magnar
+
+View debugging: enabled
+Insert view debugging dylib on launch: disabled
+Queue debugging: enabled
+Memory graph on resource exception: disabled
+Address sanitizer: disabled
+Thread sanitizer: disabled
+
+Using LLDBRPC, LLDB framework is from /Applications/Xcode.app/Contents/SharedFrameworks
+
+Attached to process with pid 85173
+
+2022-11-07 20:06:53.129006+0300 MagnarUITests-Runner[84976:2423858] Running tests...
+objc[84976]: Class SBFCARendererImageRepresentation is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/SpringBoardFoundation.framework/SpringBoardFoundation (0x102989028) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/PaperBoardUI.framework/PaperBoardUI (0x102c77218). One of the two will be used. Which one is undefined.
+Test Suite 'MagnarUITests' started at 2022-11-07 20:06:54.056
+Test Case '-[MagnarUITests.MagnarUITests testHouseOfAppletonNavigation]' started.
+    t =     0.00s Start Test at 2022-11-07 20:06:54.060
+    t =     0.09s Set Up
+    t =     0.11s Open com.michaelamiro.Magnar
+    t =     0.21s     Launch com.michaelamiro.Magnar
+    t =     2.23s         Setting up automation session
+    t =     3.37s         Wait for com.michaelamiro.Magnar to idle
+    t =     4.56s Tear Down
+Test Case '-[MagnarUITests.MagnarUITests testHouseOfAppletonNavigation]' passed (4.765 seconds).
+Test Case '-[MagnarUITests.MagnarUITests testLaunchPerformance]' started.
+    t =     0.00s Start Test at 2022-11-07 20:06:58.825
+    t =     0.04s Set Up
+    t =     0.04s Open com.michaelamiro.Magnar
+    t =     0.08s     Launch com.michaelamiro.Magnar
+    t =     0.08s         Terminate com.michaelamiro.Magnar:84989
+    t =     2.41s         Setting up automation session
+    t =     4.41s         Wait for com.michaelamiro.Magnar to idle
+    t =    15.92s Open com.michaelamiro.Magnar
+    t =    15.95s     Launch com.michaelamiro.Magnar
+    t =    15.95s         Terminate com.michaelamiro.Magnar:85022
+    t =    17.81s         Setting up automation session
+    t =    18.78s         Wait for com.michaelamiro.Magnar to idle
+    t =    30.03s Open com.michaelamiro.Magnar
+    t =    30.07s     Launch com.michaelamiro.Magnar
+    t =    30.07s         Terminate com.michaelamiro.Magnar:85067
+    t =    32.00s         Setting up automation session
+    t =    32.98s         Wait for com.michaelamiro.Magnar to idle
+    t =    44.22s Open com.michaelamiro.Magnar
+    t =    44.26s     Launch com.michaelamiro.Magnar
+    t =    44.26s         Terminate com.michaelamiro.Magnar:85100
+    t =    46.20s         Setting up automation session
+    t =    47.13s         Wait for com.michaelamiro.Magnar to idle
+    t =    58.41s Open com.michaelamiro.Magnar
+    t =    58.45s     Launch com.michaelamiro.Magnar
+    t =    58.45s         Terminate com.michaelamiro.Magnar:85127
+    t =    60.31s         Setting up automation session
+    t =    61.42s         Wait for com.michaelamiro.Magnar to idle
+    t =    72.68s Open com.michaelamiro.Magnar
+    t =    72.72s     Launch com.michaelamiro.Magnar
+    t =    72.72s         Terminate com.michaelamiro.Magnar:85148
+    t =    74.66s         Setting up automation session
+    t =    75.63s         Wait for com.michaelamiro.Magnar to idle
+/Users/amiro/Developer/Personal/Swift/Magnar/MagnarUITests/MagnarUITests.swift:28: Test Case '-[MagnarUITests.MagnarUITests testLaunchPerformance]' measured [Duration (AppLaunch), s] average: 1.869, relative standard deviation: 3.302%, values: [1.836192, 1.856075, 1.806550, 1.986661, 1.861155], performanceMetricID:com.apple.dt.XCTMetric_ApplicationLaunch-AppLaunch.duration, baselineName: "", baselineAverage: , polarity: prefers smaller, maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.000, maxStandardDeviation: 0.000
+    t =    86.91s Tear Down
+Test Case '-[MagnarUITests.MagnarUITests testLaunchPerformance]' passed (87.116 seconds).
+Test Suite 'MagnarUITests' passed at 2022-11-07 20:08:25.941.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 91.881 (91.884) seconds
+/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Logs/Test/Test-Magnar-2022.11.07_20-06-46-+0300.xcresult/Staging/1_Test/Diagnostics/MagnarUITests-4CB7D460-64B3-4678-B7E0-5DD54A196071-Configuration-Test Scheme Action-Iteration-1/MagnarUITests-FA25D8DD-1A27-4464-B50A-285E64327FBD/Session-MagnarUITests-2022-11-07_200649-zRjxU8.log
+
+/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Logs/Test/Test-Magnar-2022.11.07_20-06-46-+0300.xcresult/Staging/1_Test/Diagnostics/MagnarUITests-4CB7D460-64B3-4678-B7E0-5DD54A196071-Configuration-Test Scheme Action-Iteration-1/MagnarUITests-FA25D8DD-1A27-4464-B50A-285E64327FBD/Session-MagnarUITests-2022-11-07_200649-zRjxU8.log: /Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Logs/Test/Test-Magnar-2022.11.07_20-06-46-+0300.xcresult/Staging/1_Test/Diagnostics/MagnarUITests-4CB7D460-64B3-4678-B7E0-5DD54A196071-Configuration-Test Scheme Action-Iteration-1/MagnarUITests-FA25D8DD-1A27-4464-B50A-285E64327FBD/Session-MagnarUITests-2022-11-07_200649-zRjxU8.log
+
+2022-11-07 20:06:53.129006+0300 MagnarUITests-Runner[84976:2423858] Running tests...
+objc[84976]: Class SBFCARendererImageRepresentation is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/SpringBoardFoundation.framework/SpringBoardFoundation (0x102989028) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/PaperBoardUI.framework/PaperBoardUI (0x102c77218). One of the two will be used. Which one is undefined.
+Test Suite 'MagnarUITests' started at 2022-11-07 20:06:54.056
+Test Case '-[MagnarUITests.MagnarUITests testHouseOfAppletonNavigation]' started.
+    t =     0.00s Start Test at 2022-11-07 20:06:54.060
+    t =     0.09s Set Up
+    t =     0.11s Open com.michaelamiro.Magnar
+    t =     0.21s     Launch com.michaelamiro.Magnar
+    t =     2.23s         Setting up automation session
+    t =     3.37s         Wait for com.michaelamiro.Magnar to idle
+    t =     4.56s Tear Down
+Test Case '-[MagnarUITests.MagnarUITests testHouseOfAppletonNavigation]' passed (4.765 seconds).
+Test Case '-[MagnarUITests.MagnarUITests testLaunchPerformance]' started.
+    t =     0.00s Start Test at 2022-11-07 20:06:58.825
+    t =     0.04s Set Up
+    t =     0.04s Open com.michaelamiro.Magnar
+    t =     0.08s     Launch com.michaelamiro.Magnar
+    t =     0.08s         Terminate com.michaelamiro.Magnar:84989
+    t =     2.41s         Setting up automation session
+    t =     4.41s         Wait for com.michaelamiro.Magnar to idle
+    t =    15.92s Open com.michaelamiro.Magnar
+    t =    15.95s     Launch com.michaelamiro.Magnar
+    t =    15.95s         Terminate com.michaelamiro.Magnar:85022
+    t =    17.81s         Setting up automation session
+    t =    18.78s         Wait for com.michaelamiro.Magnar to idle
+    t =    30.03s Open com.michaelamiro.Magnar
+    t =    30.07s     Launch com.michaelamiro.Magnar
+    t =    30.07s         Terminate com.michaelamiro.Magnar:85067
+    t =    32.00s         Setting up automation session
+    t =    32.98s         Wait for com.michaelamiro.Magnar to idle
+    t =    44.22s Open com.michaelamiro.Magnar
+    t =    44.26s     Launch com.michaelamiro.Magnar
+    t =    44.26s         Terminate com.michaelamiro.Magnar:85100
+    t =    46.20s         Setting up automation session
+    t =    47.13s         Wait for com.michaelamiro.Magnar to idle
+    t =    58.41s Open com.michaelamiro.Magnar
+    t =    58.45s     Launch com.michaelamiro.Magnar
+    t =    58.45s         Terminate com.michaelamiro.Magnar:85127
+    t =    60.31s         Setting up automation session
+    t =    61.42s         Wait for com.michaelamiro.Magnar to idle
+    t =    72.68s Open com.michaelamiro.Magnar
+    t =    72.72s     Launch com.michaelamiro.Magnar
+    t =    72.72s         Terminate com.michaelamiro.Magnar:85148
+    t =    74.66s         Setting up automation session
+    t =    75.63s         Wait for com.michaelamiro.Magnar to idle
+/Users/amiro/Developer/Personal/Swift/Magnar/MagnarUITests/MagnarUITests.swift:28: Test Case '-[MagnarUITests.MagnarUITests testLaunchPerformance]' measured [Duration (AppLaunch), s] average: 1.869, relative standard deviation: 3.302%, values: [1.836192, 1.856075, 1.806550, 1.986661, 1.861155], performanceMetricID:com.apple.dt.XCTMetric_ApplicationLaunch-AppLaunch.duration, baselineName: "", baselineAverage: , polarity: prefers smaller, maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.000, maxStandardDeviation: 0.000
+    t =    86.91s Tear Down
+Test Case '-[MagnarUITests.MagnarUITests testLaunchPerformance]' passed (87.116 seconds).
+Test Suite 'MagnarUITests' passed at 2022-11-07 20:08:25.941.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 91.881 (91.884) seconds
+Test Case '-[MagnarUITests.MagnarUITests testHouseOfAppletonNavigation]' started.
+    t =     0.00s Start Test at 2022-11-07 20:06:54.060
+    t =     0.09s Set Up
+    t =     0.11s Open com.michaelamiro.Magnar
+    t =     0.21s     Launch com.michaelamiro.Magnar
+    t =     2.23s         Setting up automation session
+    t =     3.37s         Wait for com.michaelamiro.Magnar to idle
+    t =     4.56s Tear Down
+Test Case '-[MagnarUITests.MagnarUITests testHouseOfAppletonNavigation]' passed (4.765 seconds).
+Test Case '-[MagnarUITests.MagnarUITests testLaunchPerformance]' started.
+    t =     0.00s Start Test at 2022-11-07 20:06:58.825
+    t =     0.04s Set Up
+    t =     0.04s Open com.michaelamiro.Magnar
+    t =     0.08s     Launch com.michaelamiro.Magnar
+    t =     0.08s         Terminate com.michaelamiro.Magnar:84989
+    t =     2.41s         Setting up automation session
+    t =     4.41s         Wait for com.michaelamiro.Magnar to idle
+    t =    15.92s Open com.michaelamiro.Magnar
+    t =    15.95s     Launch com.michaelamiro.Magnar
+    t =    15.95s         Terminate com.michaelamiro.Magnar:85022
+    t =    17.81s         Setting up automation session
+    t =    18.78s         Wait for com.michaelamiro.Magnar to idle
+    t =    30.03s Open com.michaelamiro.Magnar
+    t =    30.07s     Launch com.michaelamiro.Magnar
+    t =    30.07s         Terminate com.michaelamiro.Magnar:85067
+    t =    32.00s         Setting up automation session
+    t =    32.98s         Wait for com.michaelamiro.Magnar to idle
+    t =    44.22s Open com.michaelamiro.Magnar
+    t =    44.26s     Launch com.michaelamiro.Magnar
+    t =    44.26s         Terminate com.michaelamiro.Magnar:85100
+    t =    46.20s         Setting up automation session
+    t =    47.13s         Wait for com.michaelamiro.Magnar to idle
+    t =    58.41s Open com.michaelamiro.Magnar
+    t =    58.45s     Launch com.michaelamiro.Magnar
+    t =    58.45s         Terminate com.michaelamiro.Magnar:85127
+    t =    60.31s         Setting up automation session
+    t =    61.42s         Wait for com.michaelamiro.Magnar to idle
+    t =    72.68s Open com.michaelamiro.Magnar
+    t =    72.72s     Launch com.michaelamiro.Magnar
+    t =    72.72s         Terminate com.michaelamiro.Magnar:85148
+    t =    74.66s         Setting up automation session
+    t =    75.63s         Wait for com.michaelamiro.Magnar to idle
+/Users/amiro/Developer/Personal/Swift/Magnar/MagnarUITests/MagnarUITests.swift:28: Test Case '-[MagnarUITests.MagnarUITests testLaunchPerformance]' measured [Duration (AppLaunch), s] average: 1.869, relative standard deviation: 3.302%, values: [1.836192, 1.856075, 1.806550, 1.986661, 1.861155], performanceMetricID:com.apple.dt.XCTMetric_ApplicationLaunch-AppLaunch.duration, baselineName: "", baselineAverage: , polarity: prefers smaller, maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.000, maxStandardDeviation: 0.000
+    t =    86.91s Tear Down
+Test Case '-[MagnarUITests.MagnarUITests testLaunchPerformance]' passed (87.116 seconds).
+Duration (AppLaunch) average: 1.869 s, relative standard deviation: 3.3%
+
+objc[85009]: Class SBFCARendererImageRepresentation is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/SpringBoardFoundation.framework/SpringBoardFoundation (0x114c66028) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/PaperBoardUI.framework/PaperBoardUI (0x114f54218). One of the two will be used. Which one is undefined.
+2022-11-07 20:07:02.733007+0300 MagnarUITests-Runner[85009:2424866] Running tests...
+Test Suite 'MagnarUITestsLaunchTests' started at 2022-11-07 20:07:02.982
+Test Case '-[MagnarUITests.MagnarUITestsLaunchTests testLaunch]' started.
+    t =     0.00s Setting appearance mode to Light
+    t =     0.17s     Wait for com.apple.springboard to idle
+    t =     0.62s Start Test at 2022-11-07 20:07:03.605
+    t =     0.70s Set Up
+    t =     0.71s Open com.michaelamiro.Magnar
+    t =     0.80s     Launch com.michaelamiro.Magnar
+    t =     2.27s         Setting up automation session
+    t =     4.11s         Wait for com.michaelamiro.Magnar to idle
+    t =     5.30s Find the Target Application 'com.michaelamiro.Magnar'
+    t =     5.53s Added attachment named 'Launch Screen'
+    t =     5.53s Tear Down
+Test Case '-[MagnarUITests.MagnarUITestsLaunchTests testLaunch]' passed (5.735 seconds).
+Test Case '-[MagnarUITests.MagnarUITestsLaunchTests testLaunch]' started.
+    t =     0.00s Setting appearance mode to Dark
+    t =     0.06s     Wait for com.michaelamiro.Magnar to idle
+    t =     0.62s Start Test at 2022-11-07 20:07:09.338
+    t =     0.65s Set Up
+    t =     0.65s Open com.michaelamiro.Magnar
+    t =     0.69s     Launch com.michaelamiro.Magnar
+    t =     0.69s         Terminate com.michaelamiro.Magnar:85038
+    t =     2.57s         Setting up automation session
+    t =     3.66s         Wait for com.michaelamiro.Magnar to idle
+    t =     4.85s Find the Target Application 'com.michaelamiro.Magnar'
+    t =     5.04s Added attachment named 'Launch Screen'
+    t =     5.04s Tear Down
+Test Case '-[MagnarUITests.MagnarUITestsLaunchTests testLaunch]' passed (5.247 seconds).
+Test Suite 'MagnarUITestsLaunchTests' passed at 2022-11-07 20:07:13.967.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 10.982 (10.985) seconds
+/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Logs/Test/Test-Magnar-2022.11.07_20-06-46-+0300.xcresult/Staging/1_Test/Diagnostics/MagnarUITests-4CB7D460-64B3-4678-B7E0-5DD54A196071-Configuration-Test Scheme Action-Iteration-1/MagnarUITests-50870EDE-D6EA-4791-BF33-44CD88A81CF6/Session-MagnarUITests-2022-11-07_200654-wNpDuB.log
+
+/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Logs/Test/Test-Magnar-2022.11.07_20-06-46-+0300.xcresult/Staging/1_Test/Diagnostics/MagnarUITests-4CB7D460-64B3-4678-B7E0-5DD54A196071-Configuration-Test Scheme Action-Iteration-1/MagnarUITests-50870EDE-D6EA-4791-BF33-44CD88A81CF6/Session-MagnarUITests-2022-11-07_200654-wNpDuB.log: /Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Logs/Test/Test-Magnar-2022.11.07_20-06-46-+0300.xcresult/Staging/1_Test/Diagnostics/MagnarUITests-4CB7D460-64B3-4678-B7E0-5DD54A196071-Configuration-Test Scheme Action-Iteration-1/MagnarUITests-50870EDE-D6EA-4791-BF33-44CD88A81CF6/Session-MagnarUITests-2022-11-07_200654-wNpDuB.log
+
+objc[85009]: Class SBFCARendererImageRepresentation is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/SpringBoardFoundation.framework/SpringBoardFoundation (0x114c66028) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/PaperBoardUI.framework/PaperBoardUI (0x114f54218). One of the two will be used. Which one is undefined.
+2022-11-07 20:07:02.733007+0300 MagnarUITests-Runner[85009:2424866] Running tests...
+Test Suite 'MagnarUITestsLaunchTests' started at 2022-11-07 20:07:02.982
+Test Case '-[MagnarUITests.MagnarUITestsLaunchTests testLaunch]' started.
+    t =     0.00s Setting appearance mode to Light
+    t =     0.17s     Wait for com.apple.springboard to idle
+    t =     0.62s Start Test at 2022-11-07 20:07:03.605
+    t =     0.70s Set Up
+    t =     0.71s Open com.michaelamiro.Magnar
+    t =     0.80s     Launch com.michaelamiro.Magnar
+    t =     2.27s         Setting up automation session
+    t =     4.11s         Wait for com.michaelamiro.Magnar to idle
+    t =     5.30s Find the Target Application 'com.michaelamiro.Magnar'
+    t =     5.53s Added attachment named 'Launch Screen'
+    t =     5.53s Tear Down
+Test Case '-[MagnarUITests.MagnarUITestsLaunchTests testLaunch]' passed (5.735 seconds).
+Test Case '-[MagnarUITests.MagnarUITestsLaunchTests testLaunch]' started.
+    t =     0.00s Setting appearance mode to Dark
+    t =     0.06s     Wait for com.michaelamiro.Magnar to idle
+    t =     0.62s Start Test at 2022-11-07 20:07:09.338
+    t =     0.65s Set Up
+    t =     0.65s Open com.michaelamiro.Magnar
+    t =     0.69s     Launch com.michaelamiro.Magnar
+    t =     0.69s         Terminate com.michaelamiro.Magnar:85038
+    t =     2.57s         Setting up automation session
+    t =     3.66s         Wait for com.michaelamiro.Magnar to idle
+    t =     4.85s Find the Target Application 'com.michaelamiro.Magnar'
+    t =     5.04s Added attachment named 'Launch Screen'
+    t =     5.04s Tear Down
+Test Case '-[MagnarUITests.MagnarUITestsLaunchTests testLaunch]' passed (5.247 seconds).
+Test Suite 'MagnarUITestsLaunchTests' passed at 2022-11-07 20:07:13.967.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 10.982 (10.985) seconds
+Test Case '-[MagnarUITests.MagnarUITestsLaunchTests testLaunch]' started.
+    t =     0.00s Setting appearance mode to Light
+    t =     0.17s     Wait for com.apple.springboard to idle
+    t =     0.62s Start Test at 2022-11-07 20:07:03.605
+    t =     0.70s Set Up
+    t =     0.71s Open com.michaelamiro.Magnar
+    t =     0.80s     Launch com.michaelamiro.Magnar
+    t =     2.27s         Setting up automation session
+    t =     4.11s         Wait for com.michaelamiro.Magnar to idle
+    t =     5.30s Find the Target Application 'com.michaelamiro.Magnar'
+    t =     5.53s Added attachment named 'Launch Screen'
+    t =     5.53s Tear Down
+Test Case '-[MagnarUITests.MagnarUITestsLaunchTests testLaunch]' passed (5.735 seconds).
+Test Case '-[MagnarUITests.MagnarUITestsLaunchTests testLaunch]' started.
+    t =     0.00s Setting appearance mode to Dark
+    t =     0.06s     Wait for com.michaelamiro.Magnar to idle
+    t =     0.62s Start Test at 2022-11-07 20:07:09.338
+    t =     0.65s Set Up
+    t =     0.65s Open com.michaelamiro.Magnar
+    t =     0.69s     Launch com.michaelamiro.Magnar
+    t =     0.69s         Terminate com.michaelamiro.Magnar:85038
+    t =     2.57s         Setting up automation session
+    t =     3.66s         Wait for com.michaelamiro.Magnar to idle
+    t =     4.85s Find the Target Application 'com.michaelamiro.Magnar'
+    t =     5.04s Added attachment named 'Launch Screen'
+    t =     5.04s Tear Down
+Test Case '-[MagnarUITests.MagnarUITestsLaunchTests testLaunch]' passed (5.247 seconds).
+objc[84974]: Class SBFCARendererImageRepresentation is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/SpringBoardFoundation.framework/SpringBoardFoundation (0x10d550028) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/PaperBoardUI.framework/PaperBoardUI (0x10d83e218). One of the two will be used. Which one is undefined.
+Test Suite 'MagnarTests' started at 2022-11-07 20:06:54.290
+Test Case '-[MagnarTests.MagnarTests testExample]' started.
+Test Case '-[MagnarTests.MagnarTests testExample]' passed (0.003 seconds).
+Test Case '-[MagnarTests.MagnarTests testPerformanceExample]' started.
+/Users/amiro/Developer/Personal/Swift/Magnar/MagnarTests/MagnarTests.swift:31: Test Case '-[MagnarTests.MagnarTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 26.103%, values: [0.000113, 0.000084, 0.000075, 0.000060, 0.000059, 0.000058, 0.000057, 0.000057, 0.000057, 0.000056], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , polarity: prefers smaller, maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+Test Case '-[MagnarTests.MagnarTests testPerformanceExample]' passed (0.567 seconds).
+Test Suite 'MagnarTests' passed at 2022-11-07 20:06:54.863.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.570 (0.573) seconds
+Test Suite 'MainCoordinatorTests' started at 2022-11-07 20:06:54.867
+Test Case '-[MagnarTests.MainCoordinatorTests testGoToBooksView]' started.
+Test Case '-[MagnarTests.MainCoordinatorTests testGoToBooksView]' passed (0.169 seconds).
+Test Case '-[MagnarTests.MainCoordinatorTests testGoToCharactersView]' started.
+Test Case '-[MagnarTests.MainCoordinatorTests testGoToCharactersView]' passed (0.055 seconds).
+Test Case '-[MagnarTests.MainCoordinatorTests testGoToHousesView]' started.
+Test Case '-[MagnarTests.MainCoordinatorTests testGoToHousesView]' passed (0.060 seconds).
+Test Case '-[MagnarTests.MainCoordinatorTests testInitialState]' started.
+Test Case '-[MagnarTests.MainCoordinatorTests testInitialState]' passed (0.003 seconds).
+Test Suite 'MainCoordinatorTests' passed at 2022-11-07 20:06:55.196.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.287 (0.329) seconds
+Test Suite 'CharactersViewModelTests' started at 2022-11-07 20:06:55.199
+Test Case '-[MagnarTests.CharactersViewModelTests testGoToHouseDetailView]' started.
+MagnarTests.CharactersViewModelMock deinit - - - - - - 
+Test Case '-[MagnarTests.CharactersViewModelTests testGoToHouseDetailView]' passed (0.053 seconds).
+Test Case '-[MagnarTests.CharactersViewModelTests testInitialState]' started.
+MagnarTests.CharactersViewModelMock deinit - - - - - - 
+Test Case '-[MagnarTests.CharactersViewModelTests testInitialState]' passed (0.005 seconds).
+Test Suite 'CharactersViewModelTests' passed at 2022-11-07 20:06:55.258.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.058 (0.059) seconds
+Test Suite 'HomeViewModelTests' started at 2022-11-07 20:06:55.313
+Test Case '-[MagnarTests.HomeViewModelTests testGoToBooksViewCalled]' started.
+MagnarTests.BaseViewModelMock deinit - - - - - - 
+Test Case '-[MagnarTests.HomeViewModelTests testGoToBooksViewCalled]' passed (0.002 seconds).
+Test Case '-[MagnarTests.HomeViewModelTests testGoToCharactersViewCalled]' started.
+MagnarTests.BaseViewModelMock deinit - - - - - - 
+Test Case '-[MagnarTests.HomeViewModelTests testGoToCharactersViewCalled]' passed (0.003 seconds).
+Test Case '-[MagnarTests.HomeViewModelTests testGoToHousesViewCalled]' started.
+MagnarTests.BaseViewModelMock deinit - - - - - - 
+Test Case '-[MagnarTests.HomeViewModelTests testGoToHousesViewCalled]' passed (0.050 seconds).
+Test Case '-[MagnarTests.HomeViewModelTests testHomeViewInitialState]' started.
+MagnarTests.BaseViewModelMock deinit - - - - - - 
+Test Case '-[MagnarTests.HomeViewModelTests testHomeViewInitialState]' passed (0.002 seconds).
+Test Suite 'HomeViewModelTests' passed at 2022-11-07 20:06:55.374.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.057 (0.060) seconds
+Test Suite 'BooksViewModelTests' started at 2022-11-07 20:06:55.424
+Test Case '-[MagnarTests.BooksViewModelTests testGoToBookDetailView]' started.
+MagnarTests.BooksViewModelMock deinit - - - - - - 
+Test Case '-[MagnarTests.BooksViewModelTests testGoToBookDetailView]' passed (0.004 seconds).
+Test Case '-[MagnarTests.BooksViewModelTests testInitialState]' started.
+MagnarTests.BooksViewModelMock deinit - - - - - - 
+Test Case '-[MagnarTests.BooksViewModelTests testInitialState]' passed (0.065 seconds).
+Test Suite 'BooksViewModelTests' passed at 2022-11-07 20:06:55.495.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.069 (0.071) seconds
+Test Suite 'HousesViewModelTests' started at 2022-11-07 20:06:55.498
+Test Case '-[MagnarTests.HousesViewModelTests testGoToHouseDetailView]' started.
+MagnarTests.HousesViewModelMock deinit - - - - - - 
+Test Case '-[MagnarTests.HousesViewModelTests testGoToHouseDetailView]' passed (0.061 seconds).
+Test Case '-[MagnarTests.HousesViewModelTests testInitialState]' started.
+MagnarTests.HousesViewModelMock deinit - - - - - - 
+Test Case '-[MagnarTests.HousesViewModelTests testInitialState]' passed (0.084 seconds).
+Test Suite 'HousesViewModelTests' passed at 2022-11-07 20:06:55.662.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.144 (0.164) seconds
+/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Logs/Test/Test-Magnar-2022.11.07_20-06-46-+0300.xcresult/Staging/1_Test/Diagnostics/MagnarTests-4CEB38BB-BFF6-4C75-B7EC-1720C03B298C-Configuration-Test Scheme Action-Iteration-1/MagnarTests-7A6F169E-4552-42F4-9409-CDC790F893BF/Session-MagnarTests-2022-11-07_200649-wiEBLv.log
+
+/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Logs/Test/Test-Magnar-2022.11.07_20-06-46-+0300.xcresult/Staging/1_Test/Diagnostics/MagnarTests-4CEB38BB-BFF6-4C75-B7EC-1720C03B298C-Configuration-Test Scheme Action-Iteration-1/MagnarTests-7A6F169E-4552-42F4-9409-CDC790F893BF/Session-MagnarTests-2022-11-07_200649-wiEBLv.log: /Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Logs/Test/Test-Magnar-2022.11.07_20-06-46-+0300.xcresult/Staging/1_Test/Diagnostics/MagnarTests-4CEB38BB-BFF6-4C75-B7EC-1720C03B298C-Configuration-Test Scheme Action-Iteration-1/MagnarTests-7A6F169E-4552-42F4-9409-CDC790F893BF/Session-MagnarTests-2022-11-07_200649-wiEBLv.log
+
+objc[84974]: Class SBFCARendererImageRepresentation is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/SpringBoardFoundation.framework/SpringBoardFoundation (0x10d550028) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/PaperBoardUI.framework/PaperBoardUI (0x10d83e218). One of the two will be used. Which one is undefined.
+Test Suite 'MagnarTests' started at 2022-11-07 20:06:54.290
+Test Case '-[MagnarTests.MagnarTests testExample]' started.
+Test Case '-[MagnarTests.MagnarTests testExample]' passed (0.003 seconds).
+Test Case '-[MagnarTests.MagnarTests testPerformanceExample]' started.
+/Users/amiro/Developer/Personal/Swift/Magnar/MagnarTests/MagnarTests.swift:31: Test Case '-[MagnarTests.MagnarTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 26.103%, values: [0.000113, 0.000084, 0.000075, 0.000060, 0.000059, 0.000058, 0.000057, 0.000057, 0.000057, 0.000056], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , polarity: prefers smaller, maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+Test Case '-[MagnarTests.MagnarTests testPerformanceExample]' passed (0.567 seconds).
+Test Suite 'MagnarTests' passed at 2022-11-07 20:06:54.863.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.570 (0.573) seconds
+Test Case '-[MagnarTests.MagnarTests testExample]' started.
+Test Case '-[MagnarTests.MagnarTests testExample]' passed (0.003 seconds).
+Test Case '-[MagnarTests.MagnarTests testPerformanceExample]' started.
+/Users/amiro/Developer/Personal/Swift/Magnar/MagnarTests/MagnarTests.swift:31: Test Case '-[MagnarTests.MagnarTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 26.103%, values: [0.000113, 0.000084, 0.000075, 0.000060, 0.000059, 0.000058, 0.000057, 0.000057, 0.000057, 0.000056], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , polarity: prefers smaller, maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+Test Case '-[MagnarTests.MagnarTests testPerformanceExample]' passed (0.567 seconds).
+Time average: 0.000 seconds, relative standard deviation: 26.1%
+
+Test Suite 'MainCoordinatorTests' started at 2022-11-07 20:06:54.867
+Test Case '-[MagnarTests.MainCoordinatorTests testGoToBooksView]' started.
+Test Case '-[MagnarTests.MainCoordinatorTests testGoToBooksView]' passed (0.169 seconds).
+Test Case '-[MagnarTests.MainCoordinatorTests testGoToCharactersView]' started.
+Test Case '-[MagnarTests.MainCoordinatorTests testGoToCharactersView]' passed (0.055 seconds).
+Test Case '-[MagnarTests.MainCoordinatorTests testGoToHousesView]' started.
+Test Case '-[MagnarTests.MainCoordinatorTests testGoToHousesView]' passed (0.060 seconds).
+Test Case '-[MagnarTests.MainCoordinatorTests testInitialState]' started.
+Test Case '-[MagnarTests.MainCoordinatorTests testInitialState]' passed (0.003 seconds).
+Test Suite 'MainCoordinatorTests' passed at 2022-11-07 20:06:55.196.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.287 (0.329) seconds
+Test Case '-[MagnarTests.MainCoordinatorTests testGoToBooksView]' started.
+Test Case '-[MagnarTests.MainCoordinatorTests testGoToBooksView]' passed (0.169 seconds).
+Test Case '-[MagnarTests.MainCoordinatorTests testGoToCharactersView]' started.
+Test Case '-[MagnarTests.MainCoordinatorTests testGoToCharactersView]' passed (0.055 seconds).
+Test Case '-[MagnarTests.MainCoordinatorTests testGoToHousesView]' started.
+Test Case '-[MagnarTests.MainCoordinatorTests testGoToHousesView]' passed (0.060 seconds).
+Test Case '-[MagnarTests.MainCoordinatorTests testInitialState]' started.
+Test Case '-[MagnarTests.MainCoordinatorTests testInitialState]' passed (0.003 seconds).
+Test Suite 'CharactersViewModelTests' started at 2022-11-07 20:06:55.199
+Test Case '-[MagnarTests.CharactersViewModelTests testGoToHouseDetailView]' started.
+MagnarTests.CharactersViewModelMock deinit - - - - - - 
+Test Case '-[MagnarTests.CharactersViewModelTests testGoToHouseDetailView]' passed (0.053 seconds).
+Test Case '-[MagnarTests.CharactersViewModelTests testInitialState]' started.
+MagnarTests.CharactersViewModelMock deinit - - - - - - 
+Test Case '-[MagnarTests.CharactersViewModelTests testInitialState]' passed (0.005 seconds).
+Test Suite 'CharactersViewModelTests' passed at 2022-11-07 20:06:55.258.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.058 (0.059) seconds
+Test Case '-[MagnarTests.CharactersViewModelTests testGoToHouseDetailView]' started.
+MagnarTests.CharactersViewModelMock deinit - - - - - - 
+Test Case '-[MagnarTests.CharactersViewModelTests testGoToHouseDetailView]' passed (0.053 seconds).
+Test Case '-[MagnarTests.CharactersViewModelTests testInitialState]' started.
+MagnarTests.CharactersViewModelMock deinit - - - - - - 
+Test Case '-[MagnarTests.CharactersViewModelTests testInitialState]' passed (0.005 seconds).
+Test Suite 'HomeViewModelTests' started at 2022-11-07 20:06:55.313
+Test Case '-[MagnarTests.HomeViewModelTests testGoToBooksViewCalled]' started.
+MagnarTests.BaseViewModelMock deinit - - - - - - 
+Test Case '-[MagnarTests.HomeViewModelTests testGoToBooksViewCalled]' passed (0.002 seconds).
+Test Case '-[MagnarTests.HomeViewModelTests testGoToCharactersViewCalled]' started.
+MagnarTests.BaseViewModelMock deinit - - - - - - 
+Test Case '-[MagnarTests.HomeViewModelTests testGoToCharactersViewCalled]' passed (0.003 seconds).
+Test Case '-[MagnarTests.HomeViewModelTests testGoToHousesViewCalled]' started.
+MagnarTests.BaseViewModelMock deinit - - - - - - 
+Test Case '-[MagnarTests.HomeViewModelTests testGoToHousesViewCalled]' passed (0.050 seconds).
+Test Case '-[MagnarTests.HomeViewModelTests testHomeViewInitialState]' started.
+MagnarTests.BaseViewModelMock deinit - - - - - - 
+Test Case '-[MagnarTests.HomeViewModelTests testHomeViewInitialState]' passed (0.002 seconds).
+Test Suite 'HomeViewModelTests' passed at 2022-11-07 20:06:55.374.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.057 (0.060) seconds
+Test Case '-[MagnarTests.HomeViewModelTests testGoToBooksViewCalled]' started.
+MagnarTests.BaseViewModelMock deinit - - - - - - 
+Test Case '-[MagnarTests.HomeViewModelTests testGoToBooksViewCalled]' passed (0.002 seconds).
+Test Case '-[MagnarTests.HomeViewModelTests testGoToCharactersViewCalled]' started.
+MagnarTests.BaseViewModelMock deinit - - - - - - 
+Test Case '-[MagnarTests.HomeViewModelTests testGoToCharactersViewCalled]' passed (0.003 seconds).
+Test Case '-[MagnarTests.HomeViewModelTests testGoToHousesViewCalled]' started.
+MagnarTests.BaseViewModelMock deinit - - - - - - 
+Test Case '-[MagnarTests.HomeViewModelTests testGoToHousesViewCalled]' passed (0.050 seconds).
+Test Case '-[MagnarTests.HomeViewModelTests testHomeViewInitialState]' started.
+MagnarTests.BaseViewModelMock deinit - - - - - - 
+Test Case '-[MagnarTests.HomeViewModelTests testHomeViewInitialState]' passed (0.002 seconds).
+Test Suite 'BooksViewModelTests' started at 2022-11-07 20:06:55.424
+Test Case '-[MagnarTests.BooksViewModelTests testGoToBookDetailView]' started.
+MagnarTests.BooksViewModelMock deinit - - - - - - 
+Test Case '-[MagnarTests.BooksViewModelTests testGoToBookDetailView]' passed (0.004 seconds).
+Test Case '-[MagnarTests.BooksViewModelTests testInitialState]' started.
+MagnarTests.BooksViewModelMock deinit - - - - - - 
+Test Case '-[MagnarTests.BooksViewModelTests testInitialState]' passed (0.065 seconds).
+Test Suite 'BooksViewModelTests' passed at 2022-11-07 20:06:55.495.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.069 (0.071) seconds
+Test Case '-[MagnarTests.BooksViewModelTests testGoToBookDetailView]' started.
+MagnarTests.BooksViewModelMock deinit - - - - - - 
+Test Case '-[MagnarTests.BooksViewModelTests testGoToBookDetailView]' passed (0.004 seconds).
+Test Case '-[MagnarTests.BooksViewModelTests testInitialState]' started.
+MagnarTests.BooksViewModelMock deinit - - - - - - 
+Test Case '-[MagnarTests.BooksViewModelTests testInitialState]' passed (0.065 seconds).
+Test Suite 'HousesViewModelTests' started at 2022-11-07 20:06:55.498
+Test Case '-[MagnarTests.HousesViewModelTests testGoToHouseDetailView]' started.
+MagnarTests.HousesViewModelMock deinit - - - - - - 
+Test Case '-[MagnarTests.HousesViewModelTests testGoToHouseDetailView]' passed (0.061 seconds).
+Test Case '-[MagnarTests.HousesViewModelTests testInitialState]' started.
+MagnarTests.HousesViewModelMock deinit - - - - - - 
+Test Case '-[MagnarTests.HousesViewModelTests testInitialState]' passed (0.084 seconds).
+Test Suite 'HousesViewModelTests' passed at 2022-11-07 20:06:55.662.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.144 (0.164) seconds
+Test Case '-[MagnarTests.HousesViewModelTests testGoToHouseDetailView]' started.
+MagnarTests.HousesViewModelMock deinit - - - - - - 
+Test Case '-[MagnarTests.HousesViewModelTests testGoToHouseDetailView]' passed (0.061 seconds).
+Test Case '-[MagnarTests.HousesViewModelTests testInitialState]' started.
+MagnarTests.HousesViewModelMock deinit - - - - - - 
+Test Case '-[MagnarTests.HousesViewModelTests testInitialState]' passed (0.084 seconds).
+Downloading profiles for com.michaelamiro.Magnar from 2 directories
+
+Downloading profiles for com.michaelamiro.MagnarUITests.xctrunner from 1 directory
+
+Downloading profiles for com.michaelamiro.Magnar from 1 directory
+
+Downloading profiles for com.michaelamiro.Magnar from 7 directories
+
+Downloading profiles for com.michaelamiro.MagnarUITests.xctrunner from 1 directory
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/llvm-profdata 'merge' '--failure-mode=all' '-o' '/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/ProfileData/99582057-A9B0-49A9-BBE2-3440C0033D26/Coverage.profdata' '/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/ProfileData/99582057-A9B0-49A9-BBE2-3440C0033D26/95402B7E-5D14-46F6-8BED-7959C0AFEDF2-85054.profraw' '/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/ProfileData/99582057-A9B0-49A9-BBE2-3440C0033D26/AC7021BF-AFD5-4692-A910-75142DF83015-85022.profraw' '/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/ProfileData/99582057-A9B0-49A9-BBE2-3440C0033D26/4A7497EF-BE30-4F33-B6DC-898870ABB9E5-85067.profraw' '/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/ProfileData/99582057-A9B0-49A9-BBE2-3440C0033D26/1679DDE5-7DD6-4F17-9CFB-63DF20FB3BA3-85009.profraw' '/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/ProfileData/99582057-A9B0-49A9-BBE2-3440C0033D26/063656DF-8CEE-4681-8733-5DB51E533DE1-85038.profraw' '/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/ProfileData/99582057-A9B0-49A9-BBE2-3440C0033D26/283B2E21-6F59-4F47-84C8-7C8CD2E355EF-85100.profraw' '/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/ProfileData/99582057-A9B0-49A9-BBE2-3440C0033D26/278567A8-E679-4A38-86BE-94E9326664A2-85173.profraw' '/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/ProfileData/99582057-A9B0-49A9-BBE2-3440C0033D26/1E5ABEA7-A72F-4274-83DD-94951CE1BD46-85127.profraw' '/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/ProfileData/99582057-A9B0-49A9-BBE2-3440C0033D26/A16EA053-77ED-4F76-91BB-DB7BC377D641-85148.profraw' '/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/ProfileData/99582057-A9B0-49A9-BBE2-3440C0033D26/3DFB871D-DED7-4B2C-B236-DE389ED42337-84989.profraw' '/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/ProfileData/99582057-A9B0-49A9-BBE2-3440C0033D26/FC3ACE14-CA8A-4338-B36D-3A51D133A301-84976.profraw' '/Users/amiro/Library/Developer/Xcode/DerivedData/Magnar-edahmxapdmtiuxbenmlyxlyimdvl/Build/ProfileData/99582057-A9B0-49A9-BBE2-3440C0033D26/2C039EAF-9F4A-4009-ACCE-B024B86CCDFE-84974.profraw'
+
+Function records indicate zero executable lines for file /Users/amiro/Developer/Personal/Swift/Magnar/Magnar/UI/SimpleTextField/SimpleTextFieldModel.swift
+
+Function records indicate zero executable lines for file /Users/amiro/Developer/Personal/Swift/Magnar/Magnar/Helpers+Extensions/TableBackedViewController/TableSection.swift
+
+Function records indicate zero executable lines for file /Users/amiro/Developer/Personal/Swift/Magnar/Magnar/Models/GOTCharacter.swift
+
+Function records indicate zero executable lines for file /Users/amiro/Developer/Personal/Swift/Magnar/Magnar/UI/BaseCell/BaseFieldModel.swift
+
+Function records indicate zero executable lines for file /Users/amiro/Developer/Personal/Swift/Magnar/Magnar/Models/Book.swift
+
+Function records indicate zero executable lines for file /Users/amiro/Developer/Personal/Swift/Magnar/Magnar/Helpers+Extensions/Coordinator.swift
+
+Generating entry for target Magnar.app
+
+Generating entry for target MagnarTests.xctest
+
+Generating entry for target MagnarUITests.xctest
+
+
+
+Testing Complete    07/11/2022, 20:08    99.8 seconds
