@@ -20,12 +20,18 @@ class BookService: BookServiceDelegate {
     }
 
     func getBooks(completion: @escaping (Result<[Book], NetworkError>) -> Void) {
-        networkService.fetch(url: "https://anapioficeandfire.com/api/books", type: [Book].self, completion: completion)
+        if networkService.shouldMock {
+            networkService.fetch(resource: "books", type: [Book].self, completion: completion)
+        } else {
+            networkService.fetch(url: "https://anapioficeandfire.com/api/books", type: [Book].self, completion: completion)
+        }
     }
 
     func getBookByURL(url: String, completion: @escaping (Result<Book, NetworkError>) -> Void) {
-        networkService.fetch(url: url, type: Book.self, completion: completion)
+        if networkService.shouldMock {
+            networkService.fetch(resource: "book", type: Book.self, completion: completion)
+        } else {
+            networkService.fetch(url: url, type: Book.self, completion: completion)
+        }
     }
-
-    
 }

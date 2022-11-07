@@ -20,10 +20,18 @@ class HouseService: HouseServiceDelegate {
     }
 
     func getHouses(completion: @escaping(Result<[House], NetworkError>) -> Void) {
-        networkService.fetch(url: "https://anapioficeandfire.com/api/houses", type: [House].self, completion: completion)
+        if networkService.shouldMock {
+            networkService.fetch(resource: "houses", type: [House].self, completion: completion)
+        } else  {
+            networkService.fetch(url: "https://anapioficeandfire.com/api/houses", type: [House].self, completion: completion)
+        }
     }
 
     func getHouseByURL(url: String, completion: @escaping(Result<House, NetworkError>) -> Void) {
-        networkService.fetch(url: url, type: House.self, completion: completion)
+        if networkService.shouldMock {
+            networkService.fetch(resource: "houses", type: House.self, completion: completion)
+        } else {
+            networkService.fetch(url: url, type: House.self, completion: completion)
+        }
     }
 }

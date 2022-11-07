@@ -33,7 +33,7 @@ class BooksViewModel: TableBackedViewModel {
         }
     }
 
-    func makeBookCells() {
+    private func makeBookCells() {
         for index in state.books.indices {
             let model = SelectableCellWithLeftImageFieldModel(with: state.books[index])
             sections[0].cells.append(SelectableCellWithLeftImageField(tag: index, model: model))

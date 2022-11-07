@@ -30,6 +30,7 @@ class HouseCoordinator: Coordinator {
         let viewController = HouseDetailsViewController()
         viewController.coordinator = self
         let model = HouseDetailsViewModel(house: house)
+        model.redrawSection = viewController.redrawSection
         viewController.viewModel = model
         navigationController.pushViewController(viewController, animated: true)
     }

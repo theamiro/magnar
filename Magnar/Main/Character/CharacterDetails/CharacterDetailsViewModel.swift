@@ -10,12 +10,15 @@ import Foundation
 class CharacterDetailsViewModel: TableBackedViewModel {
     var state: State
     private let houseService: HouseServiceDelegate
+    private let bookService: BookServiceDelegate
     init(houseService: HouseServiceDelegate = HouseService(networkService: NetworkService()),
+         bookService: BookServiceDelegate = BookService(networkService: NetworkService()),
          character: GOTCharacter) {
         self.state = State(character: character)
         self.houseService = houseService
+        self.bookService = bookService
         super.init()
-        self.title = state.character.name == "" ? state.character.aliases.first ?? "No Name" : "Nameless"
+        self.title = state.character.name == "" ? state.character.aliases.first ?? "No Name" : state.character.name
         
         sections.append(makeGenderSection())
         sections.append(makeTitlesSection())
@@ -89,24 +92,10 @@ class CharacterDetailsViewModel: TableBackedViewModel {
         let cells = state.character.tvSeries.enumerated().map { item -> SimpleTextField in
             let index = item.offset
             let series = item.element
-            let model = SimpleTextFieldModel(text: series)
+            let model = SimpleTextFieldModel(text: series == "" ? "No Series Title" : series)
             return SimpleTextField(tag: index, model: model)
         }
         return TableSection(id: Tag.Section.tvSeries, title: "TV Series", cells: cells)
-    }
-
-    func getHouseByURL(url: String) -> House? {
-        var fetchedHouse: House?
-        houseService.getHouseByURL(url: url) { result in
-            switch result {
-            case .failure(let error):
-                print(error)
-                break
-            case .success(let house):
-                fetchedHouse = house
-            }
-        }
-        return fetchedHouse
     }
 
     struct State {

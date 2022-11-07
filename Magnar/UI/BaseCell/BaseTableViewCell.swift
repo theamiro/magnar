@@ -35,4 +35,10 @@ class BaseTableViewCell: UITableViewCell {
         self.titleLabel.text = model.title
         self.subtitleLabel.text = model.subtitle
     }
+
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        self.titleLabel.text = nil
+        self.subtitleLabel.text = nil
+    }
 }

@@ -9,8 +9,10 @@ import Foundation
 
 struct House: Decodable {
     let url, name, region, coatOfArms, words, currentLord, heir, overlord: String
-    let titles, seats, swornMembers: [String]
+    let titles, seats: [String]
+    var swornMembers: [String]
     var id: Int {
         return Int(url.split(separator: "/").last ?? "0") ?? 0
     }
+    var members: [GOTCharacter]? = []
 }

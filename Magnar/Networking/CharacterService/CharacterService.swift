@@ -20,10 +20,18 @@ class GOTCharacterService: GOTCharacterServiceDelegate {
     }
 
     func getCharacters(completion: @escaping(Result<[GOTCharacter], NetworkError>) -> Void) {
-        networkService.fetch(url: "https://anapioficeandfire.com/api/characters", type: [GOTCharacter].self, completion: completion)
+        if networkService.shouldMock {
+            networkService.fetch(resource: "characters", type: [GOTCharacter].self, completion: completion)
+        } else {
+            networkService.fetch(url: "https://anapioficeandfire.com/api/characters", type: [GOTCharacter].self, completion: completion)
+        }
     }
     
     func getCharacterByURL(url: String, completion: @escaping(Result<GOTCharacter, NetworkError>) -> Void) {
-        networkService.fetch(url: url, type: GOTCharacter.self, completion: completion)
+        if networkService.shouldMock {
+            networkService.fetch(resource: "characters", type: GOTCharacter.self, completion: completion)
+        } else {
+            networkService.fetch(url: url, type: GOTCharacter.self, completion: completion)
+        }
     }
 }

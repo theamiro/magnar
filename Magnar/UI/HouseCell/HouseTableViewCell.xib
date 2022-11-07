@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -101,10 +99,10 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="nameLabel" destination="CdQ-cK-0ge" id="PpY-CJ-erf"/>
-                <outlet property="numberOfMembersLabel" destination="brV-02-gU0" id="7au-nw-MMC"/>
-                <outlet property="overlordLabel" destination="eNM-bs-aev" id="PBr-Sq-Qeo"/>
-                <outlet property="regionLabel" destination="Gbv-Cn-s47" id="Nqs-FG-Baj"/>
+                <outlet property="numberLabel" destination="brV-02-gU0" id="7au-nw-MMC"/>
+                <outlet property="subtitleLabel" destination="Gbv-Cn-s47" id="Nqs-FG-Baj"/>
+                <outlet property="tertiaryTitleLabel" destination="eNM-bs-aev" id="PBr-Sq-Qeo"/>
+                <outlet property="titleLabel" destination="CdQ-cK-0ge" id="PpY-CJ-erf"/>
             </connections>
             <point key="canvasLocation" x="133.84615384615384" y="1.777251184834123"/>
         </tableViewCell>

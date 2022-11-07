@@ -8,10 +8,10 @@
 import UIKit
 
 class HouseTableViewCell: UITableViewCell {
-    @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var regionLabel: UILabel!
-    @IBOutlet weak var overlordLabel: UILabel!
-    @IBOutlet weak var numberOfMembersLabel: UILabel!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var subtitleLabel: UILabel!
+    @IBOutlet weak var tertiaryTitleLabel: UILabel!
+    @IBOutlet weak var numberLabel: UILabel!
 
     private var model: HouseFieldModel?
     
@@ -25,9 +25,17 @@ class HouseTableViewCell: UITableViewCell {
     func configure(with model: HouseFieldModel) {
         self.model = model
 
-        nameLabel.text = model.name
-        regionLabel.text = "Region: \(model.region)"
-        overlordLabel.text = model.overlord == "" ? "No overlord": model.overlord
-        numberOfMembersLabel.text = "\(model.numberOfMembers)"
+        titleLabel.text = model.title
+        subtitleLabel.text = "Region: \(model.subtitle)"
+        tertiaryTitleLabel.text = model.tertiaryTitle
+        numberLabel.text = "\(model.numberOfMembers)"
+    }
+
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        titleLabel.text = nil
+        subtitleLabel.text = nil
+        tertiaryTitleLabel.text = nil
+        numberLabel.text = nil
     }
 }

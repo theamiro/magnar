@@ -8,16 +8,16 @@
 import Foundation
 
 struct HouseFieldModel {
-    var name: String = "Sample"
-    var region: String = "Sample"
-    var numberOfMembers: Int = 45
-    var overlord: String = "Sample"
+    var title: String
+    var subtitle: String
+    var numberOfMembers: Int
+    var tertiaryTitle: String
 }
 extension HouseFieldModel {
     init(with house: House) {
-        self.name = house.name
-        self.region = house.region
+        self.title = house.name
+        self.subtitle = house.region
+        self.tertiaryTitle = house.words == "" ? "No words" : house.words
         self.numberOfMembers = house.swornMembers.count
-        self.overlord = house.overlord == "" ? "No overload" : house.overlord
     }
 }
